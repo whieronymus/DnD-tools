@@ -6,7 +6,7 @@ conn = sqlite3.connect('characterdata.db')
 c = conn.cursor()
 
 # Will be a variable in the future
-proficiency = 2
+proficiency = 2int
 
 
 def random_select(select):
