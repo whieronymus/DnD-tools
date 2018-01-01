@@ -1,3 +1,4 @@
+ID,BaseRace,SubRace,FullName,Source,BaseHeight,HeightMod,BaseWeight,WeightMod,Speed,StrB,DexB,ConB,IntB,WisB,ChaB,Languages,Trait1,Trait2,Trait3,Trait4,Trait5,Trait6,Trait7,Trait8
 1,Dwarf,Hill,Hill Dwarf,PBH,44,2d4,115,2d6,25,0,0,2,0,1,0,Common/Dwarvish,Darkvision,Dwarven Combat Training,Dwarven Resilience,Tool Proficiency,Stonecunning,Stout Resilience,,
 2,Dwarf,Mountain,Mountain Dwarf,PBH,48,2d4,130,2d6,25,2,0,2,0,0,0,Common/Dwarvish,Darkvision,Dwarven Combat Training,Dwarven Resilience,Tool Proficiency,Stonecunning.,Dwarven Armor Training,,
 3,Elf,Dark,Drow,PBH,53,2d6,75,1d6,30,0,2,0,0,0,1,Common/Elvish,Darkvision,Keen Senses,Fey Ancestry,Trance,Superior Darkvision,Sunlight Sensitivity,Drow Magic,Drow Weapon Training

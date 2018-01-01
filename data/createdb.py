@@ -166,6 +166,7 @@ def create_tables(debug=False):
 def load_races():
     with open('csv_data/races.csv', 'r') as f:
         csv_data = csv.reader(f)
+        # Skips first line
         print(next(csv_data))
         races = [row for row in csv_data]
 
