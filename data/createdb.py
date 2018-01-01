@@ -253,20 +253,20 @@ def load_background_characteristics():
     with open('csv_data/background_characteristics.csv', 'r') as f:
         csv_data = csv.reader(f)
         print(next(csv_data))
-        background_characterstics = [row for row in csv_data]
+        background_characteristics = [row for row in csv_data]
 
     with SQLConnect('dnd.db') as db:
-        for background_characterstic in background_characterstics:
+        for background_characteristic in background_characteristics:
             try:
                 db.add_record('background_characterstics',
-                              background=background_characterstic[1],
-                              characteristic=background_characterstic[2],
-                              alignment=background_characterstic[3],
-                              description=background_characterstic[4])
+                              background=background_characteristic[1],
+                              characteristic=background_characteristic[2],
+                              alignment=background_characteristic[3],
+                              description=background_characteristic[4])
 
-                print("{} created!".format(background_characterstic[1]))
+                print("{} created!".format(background_characteristic[1]))
             except sqlite3.IntegrityError:
-                print("{} already exists.".format(background_characterstic[1]))
+                print("{} already exists.".format(background_characteristic[1]))
 
 
 if __name__ == '__main__':
