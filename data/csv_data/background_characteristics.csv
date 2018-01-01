@@ -1,428 +1,428 @@
-ID,Background,Characteristic,Alignment,Description,,,,,,,,,,,,,,
-1,Acolyte,Trait,,"I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example",,,,,,,,,,,,,,
-2,Acolyte,Trait,,"I can find common ground between the fiercest enemies, empathizing with them and always working towards peace.",,,,,,,,,,,,,,
-3,Acolyte,Trait,,"I see omens in every event and action. The gods try to speak to us, we just need to listen",,,,,,,,,,,,,,
-4,Acolyte,Trait,,Nothing can shake my optimistic attitude.,,,,,,,,,,,,,,
-5,Acolyte,Trait,,I quote (or misquote) sacred texts and proverbs in almost every situation.,,,,,,,,,,,,,,
-6,Acolyte,Trait,,I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.,,,,,,,,,,,,,,
-7,Acolyte,Trait,,"I've enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",,,,,,,,,,,,,,
-8,Acolyte,Trait,,I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.,,,,,,,,,,,,,,
-9,Acolyte,Ideal,Lawful,Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.,,,,,,,,,,,,,,
-10,Acolyte,Ideal,Good,"Charity. I always try to help those in need, no matter what the personal cost.",,,,,,,,,,,,,,
-11,Acolyte,Ideal,Chaotic,Change. We must help bring about the changes the gods are constantly working in the world.,,,,,,,,,,,,,,
-12,Acolyte,Ideal,Lawful,Power. I hope to one day rise to the top of my faith’s religious hierarchy.,,,,,,,,,,,,,,
-13,Acolyte,Ideal,Lawful,"Faith. I trust that my deity will guide my actions, I have faith that if I work hard, things will go well.",,,,,,,,,,,,,,
-14,Acolyte,Ideal,,Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings.,,,,,,,,,,,,,,
-15,Acolyte,Bond,,I would die to recover an ancient relic of my faith that was lost long ago.,,,,,,,,,,,,,,
-16,Acolyte,Bond,,I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.,,,,,,,,,,,,,,
-17,Acolyte,Bond,,I owe my life to the priest who took me in when my parents died.,,,,,,,,,,,,,,
-18,Acolyte,Bond,,Everything I do is for the common people.,,,,,,,,,,,,,,
-19,Acolyte,Bond,,I will do anything to protect the temple where I served.,,,,,,,,,,,,,,
-20,Acolyte,Bond,,I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.,,,,,,,,,,,,,,
-21,Acolyte,Flaw,,"I judge others harshly, and myself even more severely.",,,,,,,,,,,,,,
-22,Acolyte,Flaw,,I put too much trust in those who wield power within my temple’s hierarchy.,,,,,,,,,,,,,,
-23,Acolyte,Flaw,,My piety sometimes leads me to blindly trust those that profess faith in my god.,,,,,,,,,,,,,,
-24,Acolyte,Flaw,,I am inflexible in my thinking.,,,,,,,,,,,,,,
-25,Acolyte,Flaw,,I am suspicious of strangers and expect the worst of them.,,,,,,,,,,,,,,
-26,Acolyte,Flaw,,"Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",,,,,,,,,,,,,,
-27,Charlatan,Scam,,I cheat at games involving chance.,,,,,,,,,,,,,,
-28,Charlatan,Scam,,I shave coins or forge documents.,,,,,,,,,,,,,,
-29,Charlatan,Scam,,I insinuate myself into people’s lives to prey on their weakness and secure their fortunes.,,,,,,,,,,,,,,
-30,Charlatan,Scam,,I put on new identities like clothes.,,,,,,,,,,,,,,
-31,Charlatan,Scam,,I run sleight-of-hand cons on street corners.,,,,,,,,,,,,,,
-32,Charlatan,Scam,,I convince people that worthless junk is worth their hard-earned money.,,,,,,,,,,,,,,
-33,Charlatan,Trait,,"I fall in and out of love easily, and am always pursuing someone.",,,,,,,,,,,,,,
-34,Charlatan,Trait,,"I have a joke for every occasion, especially occasions where humor is inappropriate.",,,,,,,,,,,,,,
-35,Charlatan,Trait,,Flattery is my preferred trick for getting what I want.,,,,,,,,,,,,,,
-36,Charlatan,Trait,,I’m a born gambler who can't resist taking a risk for a potential payoff.,,,,,,,,,,,,,,
-37,Charlatan,Trait,,"I lie about almost everything, even when there’s no good reason to.",,,,,,,,,,,,,,
-38,Charlatan,Trait,,Sarcasm and insults are my weapons of choice.,,,,,,,,,,,,,,
-39,Charlatan,Trait,,I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.,,,,,,,,,,,,,,
-40,Charlatan,Trait,,I pocket anything I see that might have some value.,,,,,,,,,,,,,,
-41,Charlatan,Ideals,Chaotic,Independence. I am a free spirit— no one tells me what to do.,,,,,,,,,,,,,,
-42,Charlatan,Ideals,Lawful,Fairness. I never target people who can’t afford to lose a few coins.,,,,,,,,,,,,,,
-43,Charlatan,Ideals,Good,Charity. I distribute the money I acquire to the people who really need it.,,,,,,,,,,,,,,
-44,Charlatan,Ideals,Chaotic,Creativity. I never run the same con twice.,,,,,,,,,,,,,,
-45,Charlatan,Ideals,Good,Friendship. Material goods come and go. Bonds of friendship last forever.,,,,,,,,,,,,,,
-46,Charlatan,Ideals,,Aspiration. I’m determined to make something of myself.,,,,,,,,,,,,,,
-47,Charlatan,Bond,,I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.,,,,,,,,,,,,,,
-48,Charlatan,Bond,,I owe everything to my mentor—a horrible person who’s probably rotting in jail somewhere.,,,,,,,,,,,,,,
-49,Charlatan,Bond,,"Somewhere out there, I have a child who doesn’t know me. I’m making the world better for him or her.",,,,,,,,,,,,,,
-50,Charlatan,Bond,,"I come from a noble family, and one day I’ll reclaim my lands and title from those who stole them from me.",,,,,,,,,,,,,,
-51,Charlatan,Bond,,"A powerful person killed someone I love. Some day soon, I’ll have my revenge.",,,,,,,,,,,,,,
-52,Charlatan,Bond,,I swindled and ruined a person who didn’t deserve it. I seek to atone for my misdeeds but might never be able to forgive myself.,,,,,,,,,,,,,,
-53,Charlatan,Flaw,,I can’t resist a pretty face.,,,,,,,,,,,,,,
-54,Charlatan,Flaw,,I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.,,,,,,,,,,,,,,
-55,Charlatan,Flaw,,I’m convinced that no one could ever fool me the way I fool others.,,,,,,,,,,,,,,
-56,Charlatan,Flaw,,I’m too greedy for my own good. I can’t resist taking a risk if there’s money involved.,,,,,,,,,,,,,,
-57,Charlatan,Flaw,,I can’t resist swindling people who are more powerful than me.,,,,,,,,,,,,,,
-58,Charlatan,Flaw,,"I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough.",,,,,,,,,,,,,,
-59,Criminal,Specialty,,Blackmailer,,,,,,,,,,,,,,
-60,Criminal,Specialty,,Burglar,,,,,,,,,,,,,,
-61,Criminal,Specialty,,Enforcer,,,,,,,,,,,,,,
-62,Criminal,Specialty,,Fence,,,,,,,,,,,,,,
-63,Criminal,Specialty,,Highway Robber,,,,,,,,,,,,,,
-64,Criminal,Specialty,,Hired Killer,,,,,,,,,,,,,,
-65,Criminal,Specialty,,Pickpocket,,,,,,,,,,,,,,
-66,Criminal,Specialty,,Smuggler,,,,,,,,,,,,,,
-67,Criminal,Trait,,I always have a plan for what to do when things go wrong.,,,,,,,,,,,,,,
-68,Criminal,Trait,,"I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.",,,,,,,,,,,,,,
-69,Criminal,Trait,,The first thing I do in a new place is note the locations of everything valuable-or where such things could be hidden.,,,,,,,,,,,,,,
-70,Criminal,Trait,,I would rather make a new friend than a new enemy.,,,,,,,,,,,,,,
-71,Criminal,Trait,,I am incredibly slow to trust. Those who seem the fairest often have the most to hide.,,,,,,,,,,,,,,
-72,Criminal,Trait,,I don't pay attention to the risks in a situation. Never tell me the odds.,,,,,,,,,,,,,,
-73,Criminal,Trait,,The best way to get me to do something is to tell me I can't do it.,,,,,,,,,,,,,,
-74,Criminal,Trait,,I blow up at the slightest insult.,,,,,,,,,,,,,,
-75,Criminal,Ideal,Lawful,Honor. I don’t steal from others in the trade.,,,,,,,,,,,,,,
-76,Criminal,Ideal,Chaotic,"Freedom. Chains are meant to be broken, as are those who would forge them.",,,,,,,,,,,,,,
-77,Criminal,Ideal,Good,Charity. I steal from the wealthy so that I can help people in need.,,,,,,,,,,,,,,
-78,Criminal,Ideal,Evil,Greed. I will do whatever it takes to become wealthy.,,,,,,,,,,,,,,
-79,Criminal,Ideal,Neutral,"People. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care.",,,,,,,,,,,,,,
-80,Criminal,Ideal,Good,Redemption. There’s a spark of good in everyone.,,,,,,,,,,,,,,
-81,Criminal,Bond,,I’m trying to pay off an old debt I owe to a generous benefactor.,,,,,,,,,,,,,,
-82,Criminal,Bond,,My ill-gotten gains go to support my family.,,,,,,,,,,,,,,
-83,Criminal,Bond,,"Something important was taken from me, and I aim to steal it back.",,,,,,,,,,,,,,
-84,Criminal,Bond,,I will become the greatest thief that ever lived.,,,,,,,,,,,,,,
-85,Criminal,Bond,,I’m guilty of a terrible crime. I hope I can redeem myself for it.,,,,,,,,,,,,,,
-86,Criminal,Bond,,Someone I loved died because of a mistake I made.,,,,,,,,,,,,,,
-87,Criminal,Bond,,That will never happen again.,,,,,,,,,,,,,,
-88,Criminal,Flaw,,"When I see something valuable, I can’t think about anything but how to steal it.",,,,,,,,,,,,,,
-89,Criminal,Flaw,,"When faced with a choice between money and my friends, I usually choose the money.",,,,,,,,,,,,,,
-90,Criminal,Flaw,,"If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.",,,,,,,,,,,,,,
-91,Criminal,Flaw,,I have a “tell” that reveals when I'm lying.,,,,,,,,,,,,,,
-92,Criminal,Flaw,,I turn tail and run when things look bad.,,,,,,,,,,,,,,
-93,Criminal,Flaw,,An innocent person is in prison for a crime that I committed. I’m okay with that.,,,,,,,,,,,,,,
-94,Entertainer,Entertainer Routine,,Actor,,,,,,,,,,,,,,
-95,Entertainer,Entertainer Routine,,Dancer,,,,,,,,,,,,,,
-96,Entertainer,Entertainer Routine,,Fire-eater,,,,,,,,,,,,,,
-97,Entertainer,Entertainer Routine,,Jester,,,,,,,,,,,,,,
-98,Entertainer,Entertainer Routine,,Juggler,,,,,,,,,,,,,,
-99,Entertainer,Entertainer Routine,,Instrumentalist,,,,,,,,,,,,,,
-100,Entertainer,Entertainer Routine,,Poet,,,,,,,,,,,,,,
-101,Entertainer,Entertainer Routine,,Singer,,,,,,,,,,,,,,
-102,Entertainer,Entertainer Routine,,Storyteller,,,,,,,,,,,,,,
-103,Entertainer,Entertainer Routine,,Tumbler,,,,,,,,,,,,,,
-104,Entertainer,Trait,,I know a story relevant to almost every situation.,,,,,,,,,,,,,,
-105,Entertainer,Trait,,"Whenever I come to a new place, I collect local rumors and spread gossip.",,,,,,,,,,,,,,
-106,Entertainer,Trait,,"I’m a hopeless romantic, always searching for that “special someone.”",,,,,,,,,,,,,,
-107,Entertainer,Trait,,"Nobody stays angry at me or around me for long, since I can defuse any amount of tension.",,,,,,,,,,,,,,
-108,Entertainer,Trait,,"I love a good insult, even one directed at me.",,,,,,,,,,,,,,
-109,Entertainer,Trait,,I get bitter if I’m not the center of attention.,,,,,,,,,,,,,,
-110,Entertainer,Trait,,I’ll settle for nothing less than perfection.,,,,,,,,,,,,,,
-111,Entertainer,Trait,,I change my mood or my mind as quickly as I change key in a song.,,,,,,,,,,,,,,
-112,Entertainer,Ideal,Good,"Beauty. When I perform, I make the world better than it was.",,,,,,,,,,,,,,
-113,Entertainer,Ideal,Lawful,"Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are.",,,,,,,,,,,,,,
-114,Entertainer,Ideal,Chaotic,Creativity. The world is in need of new ideas and bold action.,,,,,,,,,,,,,,
-115,Entertainer,Ideal,Evil,Greed. I’m only in it for the money and fame.,,,,,,,,,,,,,,
-116,Entertainer,Ideal,Neutral,People. I like seeing the smiles on people’s faces when I perform. That’s all that matters.,,,,,,,,,,,,,,
-117,Entertainer,Ideal,,Honesty. Art should reflect the soul; it should come from within and reveal who we really are.,,,,,,,,,,,,,,
-118,Entertainer,Bond,,"My instrument is my most treasured possession, and it reminds me of someone I love.",,,,,,,,,,,,,,
-119,Entertainer,Bond,,"Someone stole my precious instrument, and someday I’ll get it back.",,,,,,,,,,,,,,
-120,Entertainer,Bond,,"I want to be famous, whatever it takes.",,,,,,,,,,,,,,
-121,Entertainer,Bond,,I idolize a hero of the old tales and measure my deeds against that person’s.,,,,,,,,,,,,,,
-122,Entertainer,Bond,,I will do anything to prove myself superior to my hated rival.,,,,,,,,,,,,,,
-123,Entertainer,Bond,,I would do anything for the other members of my old troupe.,,,,,,,,,,,,,,
-124,Entertainer,Flaw,,I’ll do anything to win fame and renown.,,,,,,,,,,,,,,
-125,Entertainer,Flaw,,I’m a sucker for a pretty face.,,,,,,,,,,,,,,
-126,Entertainer,Flaw,,A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.,,,,,,,,,,,,,,
-127,Entertainer,Flaw,,I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.,,,,,,,,,,,,,,
-128,Entertainer,Flaw,,I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.,,,,,,,,,,,,,,
-129,Entertainer,Flaw,,"Despite my best efforts, I am unreliable to my friends.",,,,,,,,,,,,,,
-130,Folk Hero,Defining Event,,I stood up to a tyrant’s agents.,,,,,,,,,,,,,,
-131,Folk Hero,Defining Event,,I saved people during a natural disaster.,,,,,,,,,,,,,,
-132,Folk Hero,Defining Event,,I stood alone against a terrible monster.,,,,,,,,,,,,,,
-133,Folk Hero,Defining Event,,I stole from a corrupt merchant to help the poor.,,,,,,,,,,,,,,
-134,Folk Hero,Defining Event,,I led a militia to fight off an invading army.,,,,,,,,,,,,,,
-135,Folk Hero,Defining Event,,I broke into a tyrant’s castle and stole weapons to arm the people.,,,,,,,,,,,,,,
-136,Folk Hero,Defining Event,,I trained the peasantry to use farm implements as weapons against a tyrant’s soldiers.,,,,,,,,,,,,,,
-137,Folk Hero,Defining Event,,A lord rescinded an unpopular decree after I led a symbolic act of protest against it.,,,,,,,,,,,,,,
-138,Folk Hero,Defining Event,,"A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.",,,,,,,,,,,,,,
-139,Folk Hero,Defining Event,,"Recruited into a lord’s army, I rose to leadership and was commended for my heroism.",,,,,,,,,,,,,,
-140,Folk Hero,Trait,,"I judge people by their actions, not their words.",,,,,,,,,,,,,,
-141,Folk Hero,Trait,,"If someone is in trouble, I’m always ready to lend help.",,,,,,,,,,,,,,
-142,Folk Hero,Trait,,"When I set my mind to something, I follow through no matter what gets in my way.",,,,,,,,,,,,,,
-143,Folk Hero,Trait,,I have a strong sense of fair play and always try to find the most equitable solution to arguments.,,,,,,,,,,,,,,
-144,Folk Hero,Trait,,I’m confident in my own abilities and do what I can to instill confidence in others.,,,,,,,,,,,,,,
-145,Folk Hero,Trait,,Thinking is for other people. I prefer action.,,,,,,,,,,,,,,
-146,Folk Hero,Trait,,I misuse long words in an attempt to sound smarter.,,,,,,,,,,,,,,
-147,Folk Hero,Trait,,I get bored easily. When am I going to get on with my destiny?,,,,,,,,,,,,,,
-148,Folk Hero,Ideal,Good,Respect. People deserve to be treated with dignity and respect.,,,,,,,,,,,,,,
-149,Folk Hero,Ideal,Lawful,"Fairness. No one should get preferential treatment before the law, and no one is above the law.",,,,,,,,,,,,,,
-150,Folk Hero,Ideal,Chaotic,Freedom. Tyrants must not be allowed to oppress the people.,,,,,,,,,,,,,,
-151,Folk Hero,Ideal,Evil,"Might. If I become strong, I can take what I want—what I deserve.",,,,,,,,,,,,,,
-152,Folk Hero,Ideal,Neutral,Sincerity. There’s no good in pretending to be something I’m not.,,,,,,,,,,,,,,
-153,Folk Hero,Ideal,,Destiny. Nothing and no one can steer me away from my higher calling.,,,,,,,,,,,,,,
-154,Folk Hero,Bond,,"I have a family, but I have no idea where they are. One day, I hope to see them again.",,,,,,,,,,,,,,
-155,Folk Hero,Bond,,"I worked the land, I love the land, and I will protect the land.",,,,,,,,,,,,,,
-156,Folk Hero,Bond,,"A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.",,,,,,,,,,,,,,
-157,Folk Hero,Bond,,"My tools are symbols of my past life, and I carry them so that I will never forget my roots.",,,,,,,,,,,,,,
-158,Folk Hero,Bond,,I protect those who cannot protect themselves.,,,,,,,,,,,,,,
-159,Folk Hero,Bond,,I wish my childhood sweetheart had come with me to pursue my destiny.,,,,,,,,,,,,,,
-160,Folk Hero,Flaw,,The tyrant who rules my land will stop at nothing to see me killed.,,,,,,,,,,,,,,
-161,Folk Hero,Flaw,,"I’m convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.",,,,,,,,,,,,,,
-162,Folk Hero,Flaw,,"The people who knew me when I was young know my shameful secret, so I can never go home again.",,,,,,,,,,,,,,
-163,Folk Hero,Flaw,,"I have a weakness for the vices of the city, especially hard drink.",,,,,,,,,,,,,,
-164,Folk Hero,Flaw,,"Secretly, I believe that things would be better if I were a tyrant lording over the land.",,,,,,,,,,,,,,
-165,Folk Hero,Flaw,,I have trouble trusting in my allies.,,,,,,,,,,,,,,
-166,Guild Artisan,Guild Business,,Alchemists and apothecaries,,,,,,,,,,,,,,
-167,Guild Artisan,Guild Business,,"Armorers, locksmiths, and finesmiths",,,,,,,,,,,,,,
-168,Guild Artisan,Guild Business,,"Brewers, distillers, and vintners",,,,,,,,,,,,,,
-169,Guild Artisan,Guild Business,,"Calligraphers, scribes, and scriveners",,,,,,,,,,,,,,
-170,Guild Artisan,Guild Business,,"Carpenters, roofers, and plasterers",,,,,,,,,,,,,,
-171,Guild Artisan,Guild Business,,"Cartographers, surveyors, and chart-makers",,,,,,,,,,,,,,
-172,Guild Artisan,Guild Business,,Cobblers and shoemakers,,,,,,,,,,,,,,
-173,Guild Artisan,Guild Business,,Cooks and bakers,,,,,,,,,,,,,,
-174,Guild Artisan,Guild Business,,Glassblowers and glaziers,,,,,,,,,,,,,,
-175,Guild Artisan,Guild Business,,Jewelers and gemcutters,,,,,,,,,,,,,,
-176,Guild Artisan,Guild Business,,"Leatherworkers, skinners, and tanners",,,,,,,,,,,,,,
-177,Guild Artisan,Guild Business,,Masons and stonecutters,,,,,,,,,,,,,,
-178,Guild Artisan,Guild Business,,"Painters, limners, and sign-makers",,,,,,,,,,,,,,
-179,Guild Artisan,Guild Business,,Potters and tile-makers,,,,,,,,,,,,,,
-180,Guild Artisan,Guild Business,,Shipwrights and sailmakers,,,,,,,,,,,,,,
-181,Guild Artisan,Guild Business,,Smiths and metal-forgers,,,,,,,,,,,,,,
-182,Guild Artisan,Guild Business,,"Tinkers, pewterers, and casters",,,,,,,,,,,,,,
-183,Guild Artisan,Guild Business,,Wagon-makers and wheelwrights,,,,,,,,,,,,,,
-184,Guild Artisan,Guild Business,,Weavers and dyers,,,,,,,,,,,,,,
-185,Guild Artisan,Guild Business,,"Woodcarvers, coopers, and bowyers",,,,,,,,,,,,,,
-186,Guild Artisan,Trait,,I believe that anything worth doing is worth doing right. I can’t help it— I’m a perfectionist.,,,,,,,,,,,,,,
-187,Guild Artisan,Trait,,I’m a snob who looks down on those who can’t appreciate fine art.,,,,,,,,,,,,,,
-188,Guild Artisan,Trait,,I always want to know how things work and what makes people tick.,,,,,,,,,,,,,,
-189,Guild Artisan,Trait,,I’m full of witty aphorisms and have a proverb for every occasion.,,,,,,,,,,,,,,
-190,Guild Artisan,Trait,,I’m rude to people who lack my commitment to hard work and fair play.,,,,,,,,,,,,,,
-191,Guild Artisan,Trait,,I like to talk at length about my profession.,,,,,,,,,,,,,,
-192,Guild Artisan,Trait,,I don’t part with my money easily and will haggle tirelessly to get the best deal possible.,,,,,,,,,,,,,,
-193,Guild Artisan,Trait,,"I’m well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven’t heard of me.",,,,,,,,,,,,,,
-194,Guild Artisan,Ideal,Lawful,Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization.,,,,,,,,,,,,,,
-195,Guild Artisan,Ideal,Good,Generosity. My talents were given to me so that I could use them to benefit the world.,,,,,,,,,,,,,,
-196,Guild Artisan,Ideal,Chaotic,Freedom. Everyone should be free to pursue his or her own livelihood.,,,,,,,,,,,,,,
-197,Guild Artisan,Ideal,Evil,Greed. I’m only in it for the money.,,,,,,,,,,,,,,
-198,Guild Artisan,Ideal,Neutral,"People. I’m committed to the people I care about, not to ideals.",,,,,,,,,,,,,,
-199,Guild Artisan,Ideal,,Aspiration. I work hard to be the best there is at my craft.,,,,,,,,,,,,,,
-200,Guild Artisan,Bond,,The workshop where I learned my trade is the most important place in the world to me.,,,,,,,,,,,,,,
-201,Guild Artisan,Bond,,"I created a great work for someone, and then found them unworthy to receive it. I’m still looking for someone worthy.",,,,,,,,,,,,,,
-202,Guild Artisan,Bond,,I owe my guild a great debt for forging me into the person I am today.,,,,,,,,,,,,,,
-203,Guild Artisan,Bond,,I pursue wealth to secure someone’s love.,,,,,,,,,,,,,,
-204,Guild Artisan,Bond,,One day I will return to my guild and prove that I am the greatest artisan of them all.,,,,,,,,,,,,,,
-205,Guild Artisan,Bond,,I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.,,,,,,,,,,,,,,
-206,Guild Artisan,Flaw,,I’ll do anything to get my hands on something rare or priceless.,,,,,,,,,,,,,,
-207,Guild Artisan,Flaw,,I’m quick to assume that someone is trying to cheat me.,,,,,,,,,,,,,,
-208,Guild Artisan,Flaw,,No one must ever learn that I once stole money from guild coffers.,,,,,,,,,,,,,,
-209,Guild Artisan,Flaw,,I’m never satisfied with what I have— I always want more.,,,,,,,,,,,,,,
-210,Guild Artisan,Flaw,,I would kill to acquire a noble title.,,,,,,,,,,,,,,
-211,Guild Artisan,Flaw,,"I’m horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I’m surrounded by rivals.",,,,,,,,,,,,,,
-212,Hermit,Life of Seclusion,,I was searching for spiritual enlightenment.,,,,,,,,,,,,,,
-213,Hermit,Life of Seclusion,,I was partaking of communal living in accordance with the dictates of a religious order.,,,,,,,,,,,,,,
-214,Hermit,Life of Seclusion,,I was exiled for a crime I didn’t commit.,,,,,,,,,,,,,,
-215,Hermit,Life of Seclusion,,I retreated from society after a life-altering event.,,,,,,,,,,,,,,
-216,Hermit,Life of Seclusion,,"I needed a quiet place to work on my art, literature, music, or manifesto.",,,,,,,,,,,,,,
-217,Hermit,Life of Seclusion,,"I needed to commune with nature, far from civilization.",,,,,,,,,,,,,,
-218,Hermit,Life of Seclusion,,I was the caretaker of an ancient ruin or relic.,,,,,,,,,,,,,,
-219,Hermit,Life of Seclusion,,"I was a pilgrim in search of a person, place, or relic of spiritual significance.",,,,,,,,,,,,,,
-220,Hermit,Trait,,"I’ve been isolated for so long that I rarely speak, preferring gestures and the occasional grunt.",,,,,,,,,,,,,,
-221,Hermit,Trait,,"I am utterly serene, even in the face of disaster.",,,,,,,,,,,,,,
-222,Hermit,Trait,,"The leader of my community had something wise to say on every topic, and I am eager to share that wisdom.",,,,,,,,,,,,,,
-223,Hermit,Trait,,I feel tremendous empathy for all who suffer.,,,,,,,,,,,,,,
-224,Hermit,Trait,,I’m oblivious to etiquette and social expectations.,,,,,,,,,,,,,,
-225,Hermit,Trait,,"I connect everything that happens to me to a grand, cosmic plan.",,,,,,,,,,,,,,
-226,Hermit,Trait,,"I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.",,,,,,,,,,,,,,
-227,Hermit,Trait,,I am working on a grand philosophical theory and love sharing my ideas.,,,,,,,,,,,,,,
-228,Hermit,Ideal,Good,"Greater Good. My gifts are meant to be shared with all, not used for my own benefit.",,,,,,,,,,,,,,
-229,Hermit,Ideal,Lawful,"Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking.",,,,,,,,,,,,,,
-230,Hermit,Ideal,Chaotic,Free Thinking. Inquiry and curiosity are the pillars of progress.,,,,,,,,,,,,,,
-231,Hermit,Ideal,Evil,Power. Solitude and contemplation are paths toward mystical or magical power.,,,,,,,,,,,,,,
-232,Hermit,Ideal,Neutral,Live and Let Live. Meddling in the affairs of others only causes trouble.,,,,,,,,,,,,,,
-233,Hermit,Ideal,,"Self-Knowledge. If you know yourself, there’s nothing left to know.",,,,,,,,,,,,,,
-234,Hermit,Bond,,"Nothing is more important than the other members of my hermitage, order, or association.",,,,,,,,,,,,,,
-235,Hermit,Bond,,I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.,,,,,,,,,,,,,,
-236,Hermit,Bond,,"I’m still seeking the enlightenment I pursued in my seclusion, and it still eludes me.",,,,,,,,,,,,,,
-237,Hermit,Bond,,I entered seclusion because I loved someone I could not have.,,,,,,,,,,,,,,
-238,Hermit,Bond,,"Should my discovery come to light, it could bring ruin to the world.",,,,,,,,,,,,,,
-239,Hermit,Bond,,My isolation gave me great insight into a great evil that only I can destroy.,,,,,,,,,,,,,,
-240,Hermit,Flaw,,"Now that I've returned to the world, I enjoy its delights a little too much.",,,,,,,,,,,,,,
-241,Hermit,Flaw,,"I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell.",,,,,,,,,,,,,,
-242,Hermit,Flaw,,I am dogmatic in my thoughts and philosophy.,,,,,,,,,,,,,,
-243,Hermit,Flaw,,I let my need to win arguments overshadow friendships and harmony.,,,,,,,,,,,,,,
-244,Hermit,Flaw,,I’d risk too much to uncover a lost bit of knowledge.,,,,,,,,,,,,,,
-245,Hermit,Flaw,,I like keeping secrets and won’t share them with anyone.,,,,,,,,,,,,,,
-246,Noble,Trait,,My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.,,,,,,,,,,,,,,
-247,Noble,Trait,,The common folk love me for my kindness and generosity.,,,,,,,,,,,,,,
-248,Noble,Trait,,No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.,,,,,,,,,,,,,,
-249,Noble,Trait,,I take great pains to always look my best and follow the latest fashions.,,,,,,,,,,,,,,
-250,Noble,Trait,,"I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable accommodations.",,,,,,,,,,,,,,
-251,Noble,Trait,,"Despite my noble birth, I do not place myself above other folk. We all have the same blood.",,,,,,,,,,,,,,
-252,Noble,Trait,,"My favor, once lost, is lost forever.",,,,,,,,,,,,,,
-253,Noble,Trait,,"If you do me an injury, I will crush you, ruin your name, and salt your fields.",,,,,,,,,,,,,,
-254,Noble,Ideal,Good,"Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity.",,,,,,,,,,,,,,
-255,Noble,Ideal,Lawful,"Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine.",,,,,,,,,,,,,,
-256,Noble,Ideal,Chaotic,Independence. I must prove that I can handle myself without the coddling of my family.,,,,,,,,,,,,,,
-257,Noble,Ideal,Evil,"Power. If I can attain more power, no one will tell me what to do.",,,,,,,,,,,,,,
-258,Noble,Ideal,,Family. Blood runs thicker than water.,,,,,,,,,,,,,,
-259,Noble,Ideal,Good,Noble Obligation. It is my duty to protect and care for the people beneath me.,,,,,,,,,,,,,,
-260,Noble,Bond,,I will face any challenge to win the approval of my family.,,,,,,,,,,,,,,
-261,Noble,Bond,,My house’s alliance with another noble family must be sustained at all costs.,,,,,,,,,,,,,,
-262,Noble,Bond,,Nothing is more important than the other members of my family.,,,,,,,,,,,,,,
-263,Noble,Bond,,I am in love with the heir of a family that my family despises.,,,,,,,,,,,,,,
-264,Noble,Bond,,My loyalty to my sovereign is unwavering.,,,,,,,,,,,,,,
-265,Noble,Bond,,The common folk must see me as a hero of the people.,,,,,,,,,,,,,,
-266,Noble,Flaw,,I secretly believe that everyone is beneath me.,,,,,,,,,,,,,,
-267,Noble,Flaw,,I hide a truly scandalous secret that could ruin my family forever.,,,,,,,,,,,,,,
-268,Noble,Flaw,,"I too often hear veiled insults and threats in every word addressed to me, and I’m quick to anger.",,,,,,,,,,,,,,
-269,Noble,Flaw,,I have an insatiable desire for carnal pleasures.,,,,,,,,,,,,,,
-270,Noble,Flaw,,"In fact, the world does revolve around me.",,,,,,,,,,,,,,
-271,Noble,Flaw,,"By my words and actions, I often bring shame to my family.",,,,,,,,,,,,,,
-272,Outlander,Origin,,Forester,,,,,,,,,,,,,,
-273,Outlander,Origin,,Trapper,,,,,,,,,,,,,,
-274,Outlander,Origin,,Homesteader,,,,,,,,,,,,,,
-275,Outlander,Origin,,Guide,,,,,,,,,,,,,,
-276,Outlander,Origin,,Bounty hunter,,,,,,,,,,,,,,
-277,Outlander,Origin,,Exile or outcast,,,,,,,,,,,,,,
-278,Outlander,Origin,,Pilgrim,,,,,,,,,,,,,,
-279,Outlander,Origin,,Tribal nomad,,,,,,,,,,,,,,
-280,Outlander,Origin,,Hunter-gatherer,,,,,,,,,,,,,,
-281,Outlander,Origin,,Tribal marauder,,,,,,,,,,,,,,
-282,Outlander,Trait,,I’m driven by a wanderlust that led me away from home.,,,,,,,,,,,,,,
-283,Outlander,Trait,,I watch over my friends as if they were a litter of newborn pups.,,,,,,,,,,,,,,
-284,Outlander,Trait,,I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I’d do it again if I had to.,,,,,,,,,,,,,,
-285,Outlander,Trait,,"I have a lesson for every situation, drawn from observing nature.",,,,,,,,,,,,,,
-286,Outlander,Trait,,I place no stock in wealthy or well-mannered folk. Money and manners won’t save you from a hungry owlbear.,,,,,,,,,,,,,,
-287,Outlander,Trait,,"I’m always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",,,,,,,,,,,,,,
-288,Outlander,Trait,,I feel far more comfortable around animals than people.,,,,,,,,,,,,,,
-289,Outlander,Trait,,"I was, in fact, raised by wolves.",,,,,,,,,,,,,,
-290,Outlander,Ideal,Chaotic,"Change. Life is like the seasons, in constant change, and we must change with it.",,,,,,,,,,,,,,
-291,Outlander,Ideal,Good,Greater Good. It is each person’s responsibility to make the most happiness for the whole tribe.,,,,,,,,,,,,,,
-292,Outlander,Ideal,Lawful,"Honor. If I dishonor myself, I dishonor my whole clan.",,,,,,,,,,,,,,
-293,Outlander,Ideal,Evil,Might. The strongest are meant to rule.,,,,,,,,,,,,,,
-294,Outlander,Ideal,Neutral,Nature. The natural world is more important than all the constructs of civilization.,,,,,,,,,,,,,,
-295,Outlander,Ideal,,"Glory. I must earn glory in battle, for myself and my clan.",,,,,,,,,,,,,,
-296,Outlander,Bond,,"My family, clan, or tribe is the most important thing in my life, even when they are far from me.",,,,,,,,,,,,,,
-297,Outlander,Bond,,An injury to the unspoiled wilderness of my home is an injury to me.,,,,,,,,,,,,,,
-298,Outlander,Bond,,I will bring terrible wrath down on the evildoers who destroyed my homeland.,,,,,,,,,,,,,,
-299,Outlander,Bond,,"I am the last of my tribe, and it is up to me to ensure their names enter legend.",,,,,,,,,,,,,,
-300,Outlander,Bond,,I suffer awful visions of a coming disaster and will do anything to prevent it.,,,,,,,,,,,,,,
-301,Outlander,Bond,,It is my duty to provide children to sustain my tribe.,,,,,,,,,,,,,,
-302,Outlander,Flaw,,"I am too enamored of ale, wine, and other intoxicants.",,,,,,,,,,,,,,
-303,Outlander,Flaw,,There’s no room for caution in a life lived to the fullest.,,,,,,,,,,,,,,
-304,Outlander,Flaw,,I remember every insult I’ve received and nurse a silent resentment toward anyone who’s ever wronged me.,,,,,,,,,,,,,,
-305,Outlander,Flaw,,"I am slow to trust members of other races, tribes, and societies.",,,,,,,,,,,,,,
-306,Outlander,Flaw,,Violence is my answer to almost any challenge.,,,,,,,,,,,,,,
-307,Outlander,Flaw,,Don’t expect me to save those who can’t save themselves. It is nature’s way that the strong thrive and the weak perish.,,,,,,,,,,,,,,
-308,Sage,Specialty,,Alchemist,,,,,,,,,,,,,,
-309,Sage,Specialty,,Astronomer,,,,,,,,,,,,,,
-310,Sage,Specialty,,Discredited academic,,,,,,,,,,,,,,
-311,Sage,Specialty,,Librarian,,,,,,,,,,,,,,
-312,Sage,Specialty,,Professor,,,,,,,,,,,,,,
-313,Sage,Specialty,,Researcher,,,,,,,,,,,,,,
-314,Sage,Specialty,,Wizard's apprentice,,,,,,,,,,,,,,
-315,Sage,Specialty,,Scribe,,,,,,,,,,,,,,
-316,Sage,Trait,,I use polysyllabic words that convey the impression of great erudition.,,,,,,,,,,,,,,
-317,Sage,Trait,,I've read every book in the world’s greatest libraries—or I like to boast that I have.,,,,,,,,,,,,,,
-318,Sage,Trait,,"I'm used to helping out those who aren’t as smart as I am, and I patiently explain anything and everything to others.",,,,,,,,,,,,,,
-319,Sage,Trait,,There’s nothing I like more than a good mystery.,,,,,,,,,,,,,,
-320,Sage,Trait,,I’m willing to listen to every side of an argument before I make my own judgment.,,,,,,,,,,,,,,
-321,Sage,Trait,,"I . . . speak . . . slowly . . . when talking . . . to idiots, . . . which . . . almost . . . everyone . . . is . . . compared . . . to me.",,,,,,,,,,,,,,
-322,Sage,Trait,,"I am horribly, horribly awkward in social situations.",,,,,,,,,,,,,,
-323,Sage,Trait,,I’m convinced that people are always trying to steal my secrets.,,,,,,,,,,,,,,
-324,Sage,Trait,Neutral,Knowledge. The path to power and self-improvement is through knowledge.,,,,,,,,,,,,,,
-325,Sage,Trait,Good,Beauty. What is beautiful points us beyond itself toward what is true.,,,,,,,,,,,,,,
-326,Sage,Trait,Lawful,Logic. Emotions must not cloud our logical thinking.,,,,,,,,,,,,,,
-327,Sage,Trait,Chaotic,No Limits. Nothing should fetter the infinite possibility inherent in all existence.,,,,,,,,,,,,,,
-328,Sage,Trait,Evil,Power. Knowledge is the path to power and domination.,,,,,,,,,,,,,,
-329,Sage,Trait,,Self-Improvement. The goal of a life of study is the betterment of oneself.,,,,,,,,,,,,,,
-330,Sage,Bond,,It is my duty to protect my students.,,,,,,,,,,,,,,
-331,Sage,Bond,,I have an ancient text that holds terrible secrets that must not fall into the wrong hands.,,,,,,,,,,,,,,
-332,Sage,Bond,,"I work to preserve a library, university, scriptorium, or monastery.",,,,,,,,,,,,,,
-333,Sage,Bond,,My life’s work is a series of tomes related to a specific field of lore.,,,,,,,,,,,,,,
-334,Sage,Bond,,I've been searching my whole life for the answer to a certain question.,,,,,,,,,,,,,,
-335,Sage,Bond,,I sold my soul for knowledge. I hope to do great deeds and win it back.,,,,,,,,,,,,,,
-336,Sage,Flaw,,I am easily distracted by the promise of information.,,,,,,,,,,,,,,
-337,Sage,Flaw,,Most people scream and run when they see a demon. I stop and take notes on its anatomy.,,,,,,,,,,,,,,
-338,Sage,Flaw,,Unlocking an ancient mystery is worth the price of a civilization.,,,,,,,,,,,,,,
-339,Sage,Flaw,,I overlook obvious solutions in favor of complicated ones.,,,,,,,,,,,,,,
-340,Sage,Flaw,,"I speak without really thinking through my words, invariably insulting others.",,,,,,,,,,,,,,
-341,Sage,Flaw,,"I can’t keep a secret to save my life, or anyone else’s.",,,,,,,,,,,,,,
-342,Sailor,Trait,,"My friends know they can rely on me, no matter what.",,,,,,,,,,,,,,
-343,Sailor,Trait,,I work hard so that I can play hard when the work is done.,,,,,,,,,,,,,,
-344,Sailor,Trait,,I enjoy sailing into new ports and making new friends over a flagon of ale.,,,,,,,,,,,,,,
-345,Sailor,Trait,,I stretch the truth for the sake of a good story.,,,,,,,,,,,,,,
-346,Sailor,Trait,,"To me, a tavern brawl is a nice way to get to know a new city.",,,,,,,,,,,,,,
-347,Sailor,Trait,,I never pass up a friendly wager.,,,,,,,,,,,,,,
-348,Sailor,Trait,,My language is as foul as an otyugh nest.,,,,,,,,,,,,,,
-349,Sailor,Trait,,"I like a job well done, especially if I can convince someone else to do it.",,,,,,,,,,,,,,
-350,Sailor,Ideal,Good,Respect. The thing that keeps a ship together is mutual respect between captain and crew.,,,,,,,,,,,,,,
-351,Sailor,Ideal,Lawful,"Fairness. We all do the work, so we all share in the rewards.",,,,,,,,,,,,,,
-352,Sailor,Ideal,Chaotic,Freedom. The sea is freedom—the freedom to go anywhere and do anything.,,,,,,,,,,,,,,
-353,Sailor,Ideal,Evil,"Mastery. I’m a predator, and the other ships on the sea are my prey.",,,,,,,,,,,,,,
-354,Sailor,Ideal,Neutral,"People. I’m committed to my crewmates, not to ideals.",,,,,,,,,,,,,,
-355,Sailor,Ideal,,Aspiration. Someday I’ll own my own ship and chart my own destiny.,,,,,,,,,,,,,,
-356,Sailor,Bond,,"I’m loyal to my captain first, everything else second.",,,,,,,,,,,,,,
-357,Sailor,Bond,,The ship is most important—crewmates and captains come and go.,,,,,,,,,,,,,,
-358,Sailor,Bond,,I’ll always remember my first ship.,,,,,,,,,,,,,,
-359,Sailor,Bond,,"In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",,,,,,,,,,,,,,
-360,Sailor,Bond,,"I was cheated out of my fair share of the profits, and I want to get my due.",,,,,,,,,,,,,,
-361,Sailor,Bond,,"Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine.",,,,,,,,,,,,,,
-362,Sailor,Flaw,,"I follow orders, even if I think they’re wrong.",,,,,,,,,,,,,,
-363,Sailor,Flaw,,I’ll say anything to avoid having to do extra work.,,,,,,,,,,,,,,
-364,Sailor,Flaw,,"Once someone questions my courage, I never back down no matter how dangerous the situation.",,,,,,,,,,,,,,
-365,Sailor,Flaw,,"Once I start drinking, it’s hard for me to stop.",,,,,,,,,,,,,,
-366,Sailor,Flaw,,I can’t help but pocket loose coins and other trinkets I come across.,,,,,,,,,,,,,,
-367,Sailor,Flaw,,My pride will probably lead to my destruction.,,,,,,,,,,,,,,
-368,Soldier,Specialty,,Officer,,,,,,,,,,,,,,
-369,Soldier,Specialty,,Scout,,,,,,,,,,,,,,
-370,Soldier,Specialty,,Infantry,,,,,,,,,,,,,,
-371,Soldier,Specialty,,Cavalry,,,,,,,,,,,,,,
-372,Soldier,Specialty,,Healer,,,,,,,,,,,,,,
-373,Soldier,Specialty,,Quartermaster,,,,,,,,,,,,,,
-374,Soldier,Specialty,,Standard bearer,,,,,,,,,,,,,,
-375,Soldier,Specialty,,"Support staff (cook, blacksmith, or the like)",,,,,,,,,,,,,,
-376,Soldier,Trait,,I'm always polite and respectful.,,,,,,,,,,,,,,
-377,Soldier,Trait,,I’m haunted by memories of war. I can’t get the images of violence out of my mind.,,,,,,,,,,,,,,
-378,Soldier,Trait,,"I’ve lost too many friends, and I’m slow to make new ones.",,,,,,,,,,,,,,
-379,Soldier,Trait,,I’m full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.,,,,,,,,,,,,,,
-380,Soldier,Trait,,I can stare down a hell hound without flinching.,,,,,,,,,,,,,,
-381,Soldier,Trait,,I enjoy being strong and like breaking things.,,,,,,,,,,,,,,
-382,Soldier,Trait,,I have a crude sense of humor.,,,,,,,,,,,,,,
-383,Soldier,Trait,,"I face problems head-on. A simple, direct solution is the best path to success.",,,,,,,,,,,,,,
-384,Soldier,Ideal,Good,Greater Good. Our lot is to lay down our lives in defense of others.,,,,,,,,,,,,,,
-385,Soldier,Ideal,Lawful,Responsibility. I do what I must and obey just authority.,,,,,,,,,,,,,,
-386,Soldier,Ideal,Chaotic,"Independence. When people follow orders blindly, they embrace a kind of tyranny.",,,,,,,,,,,,,,
-387,Soldier,Ideal,Evil,"Might. In life as in war, the stronger force wins.",,,,,,,,,,,,,,
-388,Soldier,Ideal,Neutral,Live and Let Live. Ideals aren’t worth killing over or going to war for.,,,,,,,,,,,,,,
-389,Soldier,Ideal,,"Nation. My city, nation, or people are all that matter.",,,,,,,,,,,,,,
-390,Soldier,Bond,,I would still lay down my life for the people I served with.,,,,,,,,,,,,,,
-391,Soldier,Bond,,"Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",,,,,,,,,,,,,,
-392,Soldier,Bond,,My honor is my life.,,,,,,,,,,,,,,
-393,Soldier,Bond,,I’ll never forget the crushing defeat my company suffered or the enemies who dealt it.,,,,,,,,,,,,,,
-394,Soldier,Bond,,Those who fight beside me are those worth dying for.,,,,,,,,,,,,,,
-395,Soldier,Bond,,I fight for those who cannot fight for themselves.,,,,,,,,,,,,,,
-396,Soldier,Flaw,,The monstrous enemy we faced in battle still leaves me quivering with fear.,,,,,,,,,,,,,,
-397,Soldier,Flaw,,I have little respect for anyone who is not a proven warrior.,,,,,,,,,,,,,,
-398,Soldier,Flaw,,I made a terrible mistake in battle that cost many lives—and I would do anything to keep that mistake secret.,,,,,,,,,,,,,,
-399,Soldier,Flaw,,My hatred of my enemies is blind and unreasoning.,,,,,,,,,,,,,,
-400,Soldier,Flaw,,"I obey the law, even if the law causes misery.",,,,,,,,,,,,,,
-401,Soldier,Flaw,,I’d rather eat my armor than admit when I’m wrong.,,,,,,,,,,,,,,
-402,Urchin,Trait,,I hide scraps of food and trinkets away in my pockets.,,,,,,,,,,,,,,
-403,Urchin,Trait,,I ask a lot of questions.,,,,,,,,,,,,,,
-404,Urchin,Trait,,I like to squeeze into small places where no one else can get to me.,,,,,,,,,,,,,,
-405,Urchin,Trait,,"I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.",,,,,,,,,,,,,,
-406,Urchin,Trait,,I eat like a pig and have bad manners.,,,,,,,,,,,,,,
-407,Urchin,Trait,,I think anyone who’s nice to me is hiding evil intent.,,,,,,,,,,,,,,
-408,Urchin,Trait,,I don’t like to bathe.,,,,,,,,,,,,,,
-409,Urchin,Trait,,I bluntly say what other people are hinting at or hiding.,,,,,,,,,,,,,,
-410,Urchin,Ideal,Good,"Respect. All people, rich or poor, deserve respect.",,,,,,,,,,,,,,
-411,Urchin,Ideal,Lawful,"Community. We have to take care of each other, because no one else is going to do it.",,,,,,,,,,,,,,
-412,Urchin,Ideal,Chaotic,"Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things.",,,,,,,,,,,,,,
-413,Urchin,Ideal,Evil,Retribution. The rich need to be shown what life and death are like in the gutters.,,,,,,,,,,,,,,
-414,Urchin,Ideal,Neutral,People. I help the people who help me—that’s what keeps us alive.,,,,,,,,,,,,,,
-415,Urchin,Ideal,,Aspiration. I'm going to prove that I'm worthy of a better life.,,,,,,,,,,,,,,
-416,Urchin,Bond,,"My town or city is my home, and I’ll fight to defend it.",,,,,,,,,,,,,,
-417,Urchin,Bond,,I sponsor an orphanage to keep others from enduring what I was forced to endure.,,,,,,,,,,,,,,
-418,Urchin,Bond,,I owe my survival to another urchin who taught me to live on the streets.,,,,,,,,,,,,,,
-419,Urchin,Bond,,I owe a debt I can never repay to the person who took pity on me.,,,,,,,,,,,,,,
-420,Urchin,Bond,,"I escaped my life of poverty by robbing an important person, and I’m wanted for it.",,,,,,,,,,,,,,
-421,Urchin,Bond,,No one else should have to endure the hardships I’ve been through.,,,,,,,,,,,,,,
-422,Urchin,Flaw,,"If I'm outnumbered, I will run away from a fight.",,,,,,,,,,,,,,
-423,Urchin,Flaw,,"Gold seems like a lot of money to me, and I’ll do just about anything for more of it.",,,,,,,,,,,,,,
-424,Urchin,Flaw,,I will never fully trust anyone other than myself.,,,,,,,,,,,,,,
-425,Urchin,Flaw,,I’d rather kill someone in their sleep than fight fair.,,,,,,,,,,,,,,
-426,Urchin,Flaw,,It’s not stealing if I need it more than someone else.,,,,,,,,,,,,,,
-427,Urchin,Flaw,,People who can't take care of themselves get what they deserve.,,,,,,,,,,,,,,
+ID,Background,Characteristic,Alignment,Description
+1,Acolyte,Trait,,"I idolize a particular hero of my faith, and constantly refer to that person's deeds and example"
+2,Acolyte,Trait,,"I can find common ground between the fiercest enemies, empathizing with them and always working towards peace."
+3,Acolyte,Trait,,"I see omens in every event and action. The gods try to speak to us, we just need to listen"
+4,Acolyte,Trait,,Nothing can shake my optimistic attitude.
+5,Acolyte,Trait,,I quote (or misquote) sacred texts and proverbs in almost every situation.
+6,Acolyte,Trait,,I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.
+7,Acolyte,Trait,,"I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me."
+8,Acolyte,Trait,,I've spent so long in the temple that I have little practical experience dealing with people in the outside world.
+9,Acolyte,Ideal,Lawful,Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.
+10,Acolyte,Ideal,Good,"Charity. I always try to help those in need, no matter what the personal cost."
+11,Acolyte,Ideal,Chaotic,Change. We must help bring about the changes the gods are constantly working in the world.
+12,Acolyte,Ideal,Lawful,Power. I hope to one day rise to the top of my faith's religious hierarchy.
+13,Acolyte,Ideal,Lawful,"Faith. I trust that my deity will guide my actions, I have faith that if I work hard, things will go well."
+14,Acolyte,Ideal,,Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.
+15,Acolyte,Bond,,I would die to recover an ancient relic of my faith that was lost long ago.
+16,Acolyte,Bond,,I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.
+17,Acolyte,Bond,,I owe my life to the priest who took me in when my parents died.
+18,Acolyte,Bond,,Everything I do is for the common people.
+19,Acolyte,Bond,,I will do anything to protect the temple where I served.
+20,Acolyte,Bond,,I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.
+21,Acolyte,Flaw,,"I judge others harshly, and myself even more severely."
+22,Acolyte,Flaw,,I put too much trust in those who wield power within my temple's hierarchy.
+23,Acolyte,Flaw,,My piety sometimes leads me to blindly trust those that profess faith in my god.
+24,Acolyte,Flaw,,I am inflexible in my thinking.
+25,Acolyte,Flaw,,I am suspicious of strangers and expect the worst of them.
+26,Acolyte,Flaw,,"Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+27,Charlatan,Scam,,I cheat at games involving chance.
+28,Charlatan,Scam,,I shave coins or forge documents.
+29,Charlatan,Scam,,I insinuate myself into people's lives to prey on their weakness and secure their fortunes.
+30,Charlatan,Scam,,I put on new identities like clothes.
+31,Charlatan,Scam,,I run sleight-of-hand cons on street corners.
+32,Charlatan,Scam,,I convince people that worthless junk is worth their hard-earned money.
+33,Charlatan,Trait,,"I fall in and out of love easily, and am always pursuing someone."
+34,Charlatan,Trait,,"I have a joke for every occasion, especially occasions where humor is inappropriate."
+35,Charlatan,Trait,,Flattery is my preferred trick for getting what I want.
+36,Charlatan,Trait,,I'm a born gambler who can't resist taking a risk for a potential payoff.
+37,Charlatan,Trait,,"I lie about almost everything, even when there's no good reason to."
+38,Charlatan,Trait,,Sarcasm and insults are my weapons of choice.
+39,Charlatan,Trait,,I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.
+40,Charlatan,Trait,,I pocket anything I see that might have some value.
+41,Charlatan,Ideals,Chaotic,Independence. I am a free spirit- no one tells me what to do.
+42,Charlatan,Ideals,Lawful,Fairness. I never target people who can't afford to lose a few coins.
+43,Charlatan,Ideals,Good,Charity. I distribute the money I acquire to the people who really need it.
+44,Charlatan,Ideals,Chaotic,Creativity. I never run the same con twice.
+45,Charlatan,Ideals,Good,Friendship. Material goods come and go. Bonds of friendship last forever.
+46,Charlatan,Ideals,,Aspiration. I'm determined to make something of myself.
+47,Charlatan,Bond,,I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.
+48,Charlatan,Bond,,I owe everything to my mentor-a horrible person who's probably rotting in jail somewhere.
+49,Charlatan,Bond,,"Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her."
+50,Charlatan,Bond,,"I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me."
+51,Charlatan,Bond,,"A powerful person killed someone I love. Some day soon, I'll have my revenge."
+52,Charlatan,Bond,,I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself.
+53,Charlatan,Flaw,,I can't resist a pretty face.
+54,Charlatan,Flaw,,I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.
+55,Charlatan,Flaw,,I'm convinced that no one could ever fool me the way I fool others.
+56,Charlatan,Flaw,,I'm too greedy for my own good. I can't resist taking a risk if there's money involved.
+57,Charlatan,Flaw,,I can't resist swindling people who are more powerful than me.
+58,Charlatan,Flaw,,"I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough."
+59,Criminal,Specialty,,Blackmailer
+60,Criminal,Specialty,,Burglar
+61,Criminal,Specialty,,Enforcer
+62,Criminal,Specialty,,Fence
+63,Criminal,Specialty,,Highway Robber
+64,Criminal,Specialty,,Hired Killer
+65,Criminal,Specialty,,Pickpocket
+66,Criminal,Specialty,,Smuggler
+67,Criminal,Trait,,I always have a plan for what to do when things go wrong.
+68,Criminal,Trait,,"I am always calm, no matter what the situation. I never raise my voice or let my emotions control me."
+69,Criminal,Trait,,The first thing I do in a new place is note the locations of everything valuable-or where such things could be hidden.
+70,Criminal,Trait,,I would rather make a new friend than a new enemy.
+71,Criminal,Trait,,I am incredibly slow to trust. Those who seem the fairest often have the most to hide.
+72,Criminal,Trait,,I don't pay attention to the risks in a situation. Never tell me the odds.
+73,Criminal,Trait,,The best way to get me to do something is to tell me I can't do it.
+74,Criminal,Trait,,I blow up at the slightest insult.
+75,Criminal,Ideal,Lawful,Honor. I don't steal from others in the trade.
+76,Criminal,Ideal,Chaotic,"Freedom. Chains are meant to be broken, as are those who would forge them."
+77,Criminal,Ideal,Good,Charity. I steal from the wealthy so that I can help people in need.
+78,Criminal,Ideal,Evil,Greed. I will do whatever it takes to become wealthy.
+79,Criminal,Ideal,Neutral,"People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care."
+80,Criminal,Ideal,Good,Redemption. There's a spark of good in everyone.
+81,Criminal,Bond,,I'm trying to pay off an old debt I owe to a generous benefactor.
+82,Criminal,Bond,,My ill-gotten gains go to support my family.
+83,Criminal,Bond,,"Something important was taken from me, and I aim to steal it back."
+84,Criminal,Bond,,I will become the greatest thief that ever lived.
+85,Criminal,Bond,,I'm guilty of a terrible crime. I hope I can redeem myself for it.
+86,Criminal,Bond,,Someone I loved died because of a mistake I made.
+87,Criminal,Bond,,That will never happen again.
+88,Criminal,Flaw,,"When I see something valuable, I can't think about anything but how to steal it."
+89,Criminal,Flaw,,"When faced with a choice between money and my friends, I usually choose the money."
+90,Criminal,Flaw,,"If there's a plan, I'll forget it. If I don't forget it, I'll ignore it."
+91,Criminal,Flaw,,"I have a ""tell"" that reveals when I'm lying."
+92,Criminal,Flaw,,I turn tail and run when things look bad.
+93,Criminal,Flaw,,An innocent person is in prison for a crime that I committed. I'm okay with that.
+94,Entertainer,Entertainer Routine,,Actor
+95,Entertainer,Entertainer Routine,,Dancer
+96,Entertainer,Entertainer Routine,,Fire-eater
+97,Entertainer,Entertainer Routine,,Jester
+98,Entertainer,Entertainer Routine,,Juggler
+99,Entertainer,Entertainer Routine,,Instrumentalist
+100,Entertainer,Entertainer Routine,,Poet
+101,Entertainer,Entertainer Routine,,Singer
+102,Entertainer,Entertainer Routine,,Storyteller
+103,Entertainer,Entertainer Routine,,Tumbler
+104,Entertainer,Trait,,I know a story relevant to almost every situation.
+105,Entertainer,Trait,,"Whenever I come to a new place, I collect local rumors and spread gossip."
+106,Entertainer,Trait,,"I'm a hopeless romantic, always searching for that ""special someone."""
+107,Entertainer,Trait,,"Nobody stays angry at me or around me for long, since I can defuse any amount of tension."
+108,Entertainer,Trait,,"I love a good insult, even one directed at me."
+109,Entertainer,Trait,,I get bitter if I'm not the center of attention.
+110,Entertainer,Trait,,I'll settle for nothing less than perfection.
+111,Entertainer,Trait,,I change my mood or my mind as quickly as I change key in a song.
+112,Entertainer,Ideal,Good,"Beauty. When I perform, I make the world better than it was."
+113,Entertainer,Ideal,Lawful,"Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are."
+114,Entertainer,Ideal,Chaotic,Creativity. The world is in need of new ideas and bold action.
+115,Entertainer,Ideal,Evil,Greed. I'm only in it for the money and fame.
+116,Entertainer,Ideal,Neutral,People. I like seeing the smiles on people's faces when I perform. That's all that matters.
+117,Entertainer,Ideal,,Honesty. Art should reflect the soul; it should come from within and reveal who we really are.
+118,Entertainer,Bond,,"My instrument is my most treasured possession, and it reminds me of someone I love."
+119,Entertainer,Bond,,"Someone stole my precious instrument, and someday I'll get it back."
+120,Entertainer,Bond,,"I want to be famous, whatever it takes."
+121,Entertainer,Bond,,I idolize a hero of the old tales and measure my deeds against that person's.
+122,Entertainer,Bond,,I will do anything to prove myself superior to my hated rival.
+123,Entertainer,Bond,,I would do anything for the other members of my old troupe.
+124,Entertainer,Flaw,,I'll do anything to win fame and renown.
+125,Entertainer,Flaw,,I'm a sucker for a pretty face.
+126,Entertainer,Flaw,,A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.
+127,Entertainer,Flaw,,I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.
+128,Entertainer,Flaw,,I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.
+129,Entertainer,Flaw,,"Despite my best efforts, I am unreliable to my friends."
+130,Folk Hero,Defining Event,,I stood up to a tyrant's agents.
+131,Folk Hero,Defining Event,,I saved people during a natural disaster.
+132,Folk Hero,Defining Event,,I stood alone against a terrible monster.
+133,Folk Hero,Defining Event,,I stole from a corrupt merchant to help the poor.
+134,Folk Hero,Defining Event,,I led a militia to fight off an invading army.
+135,Folk Hero,Defining Event,,I broke into a tyrant's castle and stole weapons to arm the people.
+136,Folk Hero,Defining Event,,I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.
+137,Folk Hero,Defining Event,,A lord rescinded an unpopular decree after I led a symbolic act of protest against it.
+138,Folk Hero,Defining Event,,"A celestial, fey, or similar creature gave me a blessing or revealed my secret origin."
+139,Folk Hero,Defining Event,,"Recruited into a lord's army, I rose to leadership and was commended for my heroism."
+140,Folk Hero,Trait,,"I judge people by their actions, not their words."
+141,Folk Hero,Trait,,"If someone is in trouble, I'm always ready to lend help."
+142,Folk Hero,Trait,,"When I set my mind to something, I follow through no matter what gets in my way."
+143,Folk Hero,Trait,,I have a strong sense of fair play and always try to find the most equitable solution to arguments.
+144,Folk Hero,Trait,,I'm confident in my own abilities and do what I can to instill confidence in others.
+145,Folk Hero,Trait,,Thinking is for other people. I prefer action.
+146,Folk Hero,Trait,,I misuse long words in an attempt to sound smarter.
+147,Folk Hero,Trait,,I get bored easily. When am I going to get on with my destiny?
+148,Folk Hero,Ideal,Good,Respect. People deserve to be treated with dignity and respect.
+149,Folk Hero,Ideal,Lawful,"Fairness. No one should get preferential treatment before the law, and no one is above the law."
+150,Folk Hero,Ideal,Chaotic,Freedom. Tyrants must not be allowed to oppress the people.
+151,Folk Hero,Ideal,Evil,"Might. If I become strong, I can take what I want-what I deserve."
+152,Folk Hero,Ideal,Neutral,Sincerity. There's no good in pretending to be something I'm not.
+153,Folk Hero,Ideal,,Destiny. Nothing and no one can steer me away from my higher calling.
+154,Folk Hero,Bond,,"I have a family, but I have no idea where they are. One day, I hope to see them again."
+155,Folk Hero,Bond,,"I worked the land, I love the land, and I will protect the land."
+156,Folk Hero,Bond,,"A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter."
+157,Folk Hero,Bond,,"My tools are symbols of my past life, and I carry them so that I will never forget my roots."
+158,Folk Hero,Bond,,I protect those who cannot protect themselves.
+159,Folk Hero,Bond,,I wish my childhood sweetheart had come with me to pursue my destiny.
+160,Folk Hero,Flaw,,The tyrant who rules my land will stop at nothing to see me killed.
+161,Folk Hero,Flaw,,"I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+162,Folk Hero,Flaw,,"The people who knew me when I was young know my shameful secret, so I can never go home again."
+163,Folk Hero,Flaw,,"I have a weakness for the vices of the city, especially hard drink."
+164,Folk Hero,Flaw,,"Secretly, I believe that things would be better if I were a tyrant lording over the land."
+165,Folk Hero,Flaw,,I have trouble trusting in my allies.
+166,Guild Artisan,Guild Business,,Alchemists and apothecaries
+167,Guild Artisan,Guild Business,,"Armorers, locksmiths, and finesmiths"
+168,Guild Artisan,Guild Business,,"Brewers, distillers, and vintners"
+169,Guild Artisan,Guild Business,,"Calligraphers, scribes, and scriveners"
+170,Guild Artisan,Guild Business,,"Carpenters, roofers, and plasterers"
+171,Guild Artisan,Guild Business,,"Cartographers, surveyors, and chart-makers"
+172,Guild Artisan,Guild Business,,Cobblers and shoemakers
+173,Guild Artisan,Guild Business,,Cooks and bakers
+174,Guild Artisan,Guild Business,,Glassblowers and glaziers
+175,Guild Artisan,Guild Business,,Jewelers and gemcutters
+176,Guild Artisan,Guild Business,,"Leatherworkers, skinners, and tanners"
+177,Guild Artisan,Guild Business,,Masons and stonecutters
+178,Guild Artisan,Guild Business,,"Painters, limners, and sign-makers"
+179,Guild Artisan,Guild Business,,Potters and tile-makers
+180,Guild Artisan,Guild Business,,Shipwrights and sailmakers
+181,Guild Artisan,Guild Business,,Smiths and metal-forgers
+182,Guild Artisan,Guild Business,,"Tinkers, pewterers, and casters"
+183,Guild Artisan,Guild Business,,Wagon-makers and wheelwrights
+184,Guild Artisan,Guild Business,,Weavers and dyers
+185,Guild Artisan,Guild Business,,"Woodcarvers, coopers, and bowyers"
+186,Guild Artisan,Trait,,I believe that anything worth doing is worth doing right. I can't help it- I'm a perfectionist.
+187,Guild Artisan,Trait,,I'm a snob who looks down on those who can't appreciate fine art.
+188,Guild Artisan,Trait,,I always want to know how things work and what makes people tick.
+189,Guild Artisan,Trait,,I'm full of witty aphorisms and have a proverb for every occasion.
+190,Guild Artisan,Trait,,I'm rude to people who lack my commitment to hard work and fair play.
+191,Guild Artisan,Trait,,I like to talk at length about my profession.
+192,Guild Artisan,Trait,,I don't part with my money easily and will haggle tirelessly to get the best deal possible.
+193,Guild Artisan,Trait,,"I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+194,Guild Artisan,Ideal,Lawful,Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization.
+195,Guild Artisan,Ideal,Good,Generosity. My talents were given to me so that I could use them to benefit the world.
+196,Guild Artisan,Ideal,Chaotic,Freedom. Everyone should be free to pursue his or her own livelihood.
+197,Guild Artisan,Ideal,Evil,Greed. I'm only in it for the money.
+198,Guild Artisan,Ideal,Neutral,"People. I'm committed to the people I care about, not to ideals."
+199,Guild Artisan,Ideal,,Aspiration. I work hard to be the best there is at my craft.
+200,Guild Artisan,Bond,,The workshop where I learned my trade is the most important place in the world to me.
+201,Guild Artisan,Bond,,"I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy."
+202,Guild Artisan,Bond,,I owe my guild a great debt for forging me into the person I am today.
+203,Guild Artisan,Bond,,I pursue wealth to secure someone's love.
+204,Guild Artisan,Bond,,One day I will return to my guild and prove that I am the greatest artisan of them all.
+205,Guild Artisan,Bond,,I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood.
+206,Guild Artisan,Flaw,,I'll do anything to get my hands on something rare or priceless.
+207,Guild Artisan,Flaw,,I'm quick to assume that someone is trying to cheat me.
+208,Guild Artisan,Flaw,,No one must ever learn that I once stole money from guild coffers.
+209,Guild Artisan,Flaw,,I'm never satisfied with what I have- I always want more.
+210,Guild Artisan,Flaw,,I would kill to acquire a noble title.
+211,Guild Artisan,Flaw,,"I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+212,Hermit,Life of Seclusion,,I was searching for spiritual enlightenment.
+213,Hermit,Life of Seclusion,,I was partaking of communal living in accordance with the dictates of a religious order.
+214,Hermit,Life of Seclusion,,I was exiled for a crime I didn't commit.
+215,Hermit,Life of Seclusion,,I retreated from society after a life-altering event.
+216,Hermit,Life of Seclusion,,"I needed a quiet place to work on my art, literature, music, or manifesto."
+217,Hermit,Life of Seclusion,,"I needed to commune with nature, far from civilization."
+218,Hermit,Life of Seclusion,,I was the caretaker of an ancient ruin or relic.
+219,Hermit,Life of Seclusion,,"I was a pilgrim in search of a person, place, or relic of spiritual significance."
+220,Hermit,Trait,,"I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt."
+221,Hermit,Trait,,"I am utterly serene, even in the face of disaster."
+222,Hermit,Trait,,"The leader of my community had something wise to say on every topic, and I am eager to share that wisdom."
+223,Hermit,Trait,,I feel tremendous empathy for all who suffer.
+224,Hermit,Trait,,I'm oblivious to etiquette and social expectations.
+225,Hermit,Trait,,"I connect everything that happens to me to a grand, cosmic plan."
+226,Hermit,Trait,,"I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings."
+227,Hermit,Trait,,I am working on a grand philosophical theory and love sharing my ideas.
+228,Hermit,Ideal,Good,"Greater Good. My gifts are meant to be shared with all, not used for my own benefit."
+229,Hermit,Ideal,Lawful,"Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking."
+230,Hermit,Ideal,Chaotic,Free Thinking. Inquiry and curiosity are the pillars of progress.
+231,Hermit,Ideal,Evil,Power. Solitude and contemplation are paths toward mystical or magical power.
+232,Hermit,Ideal,Neutral,Live and Let Live. Meddling in the affairs of others only causes trouble.
+233,Hermit,Ideal,,"Self-Knowledge. If you know yourself, there's nothing left to know."
+234,Hermit,Bond,,"Nothing is more important than the other members of my hermitage, order, or association."
+235,Hermit,Bond,,I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them.
+236,Hermit,Bond,,"I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me."
+237,Hermit,Bond,,I entered seclusion because I loved someone I could not have.
+238,Hermit,Bond,,"Should my discovery come to light, it could bring ruin to the world."
+239,Hermit,Bond,,My isolation gave me great insight into a great evil that only I can destroy.
+240,Hermit,Flaw,,"Now that I've returned to the world, I enjoy its delights a little too much."
+241,Hermit,Flaw,,"I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell."
+242,Hermit,Flaw,,I am dogmatic in my thoughts and philosophy.
+243,Hermit,Flaw,,I let my need to win arguments overshadow friendships and harmony.
+244,Hermit,Flaw,,I'd risk too much to uncover a lost bit of knowledge.
+245,Hermit,Flaw,,I like keeping secrets and won't share them with anyone.
+246,Noble,Trait,,My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.
+247,Noble,Trait,,The common folk love me for my kindness and generosity.
+248,Noble,Trait,,No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.
+249,Noble,Trait,,I take great pains to always look my best and follow the latest fashions.
+250,Noble,Trait,,"I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations."
+251,Noble,Trait,,"Despite my noble birth, I do not place myself above other folk. We all have the same blood."
+252,Noble,Trait,,"My favor, once lost, is lost forever."
+253,Noble,Trait,,"If you do me an injury, I will crush you, ruin your name, and salt your fields."
+254,Noble,Ideal,Good,"Respect. Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity."
+255,Noble,Ideal,Lawful,"Responsibility. It is my duty to respect the authority of those above me, just as those below me must respect mine."
+256,Noble,Ideal,Chaotic,Independence. I must prove that I can handle myself without the coddling of my family.
+257,Noble,Ideal,Evil,"Power. If I can attain more power, no one will tell me what to do."
+258,Noble,Ideal,,Family. Blood runs thicker than water.
+259,Noble,Ideal,Good,Noble Obligation. It is my duty to protect and care for the people beneath me.
+260,Noble,Bond,,I will face any challenge to win the approval of my family.
+261,Noble,Bond,,My house's alliance with another noble family must be sustained at all costs.
+262,Noble,Bond,,Nothing is more important than the other members of my family.
+263,Noble,Bond,,I am in love with the heir of a family that my family despises.
+264,Noble,Bond,,My loyalty to my sovereign is unwavering.
+265,Noble,Bond,,The common folk must see me as a hero of the people.
+266,Noble,Flaw,,I secretly believe that everyone is beneath me.
+267,Noble,Flaw,,I hide a truly scandalous secret that could ruin my family forever.
+268,Noble,Flaw,,"I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger."
+269,Noble,Flaw,,I have an insatiable desire for carnal pleasures.
+270,Noble,Flaw,,"In fact, the world does revolve around me."
+271,Noble,Flaw,,"By my words and actions, I often bring shame to my family."
+272,Outlander,Origin,,Forester
+273,Outlander,Origin,,Trapper
+274,Outlander,Origin,,Homesteader
+275,Outlander,Origin,,Guide
+276,Outlander,Origin,,Bounty hunter
+277,Outlander,Origin,,Exile or outcast
+278,Outlander,Origin,,Pilgrim
+279,Outlander,Origin,,Tribal nomad
+280,Outlander,Origin,,Hunter-gatherer
+281,Outlander,Origin,,Tribal marauder
+282,Outlander,Trait,,I'm driven by a wanderlust that led me away from home.
+283,Outlander,Trait,,I watch over my friends as if they were a litter of newborn pups.
+284,Outlander,Trait,,I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to.
+285,Outlander,Trait,,"I have a lesson for every situation, drawn from observing nature."
+286,Outlander,Trait,,I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.
+287,Outlander,Trait,,"I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+288,Outlander,Trait,,I feel far more comfortable around animals than people.
+289,Outlander,Trait,,"I was, in fact, raised by wolves."
+290,Outlander,Ideal,Chaotic,"Change. Life is like the seasons, in constant change, and we must change with it."
+291,Outlander,Ideal,Good,Greater Good. It is each person's responsibility to make the most happiness for the whole tribe.
+292,Outlander,Ideal,Lawful,"Honor. If I dishonor myself, I dishonor my whole clan."
+293,Outlander,Ideal,Evil,Might. The strongest are meant to rule.
+294,Outlander,Ideal,Neutral,Nature. The natural world is more important than all the constructs of civilization.
+295,Outlander,Ideal,,"Glory. I must earn glory in battle, for myself and my clan."
+296,Outlander,Bond,,"My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+297,Outlander,Bond,,An injury to the unspoiled wilderness of my home is an injury to me.
+298,Outlander,Bond,,I will bring terrible wrath down on the evildoers who destroyed my homeland.
+299,Outlander,Bond,,"I am the last of my tribe, and it is up to me to ensure their names enter legend."
+300,Outlander,Bond,,I suffer awful visions of a coming disaster and will do anything to prevent it.
+301,Outlander,Bond,,It is my duty to provide children to sustain my tribe.
+302,Outlander,Flaw,,"I am too enamored of ale, wine, and other intoxicants."
+303,Outlander,Flaw,,There's no room for caution in a life lived to the fullest.
+304,Outlander,Flaw,,I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.
+305,Outlander,Flaw,,"I am slow to trust members of other races, tribes, and societies."
+306,Outlander,Flaw,,Violence is my answer to almost any challenge.
+307,Outlander,Flaw,,Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.
+308,Sage,Specialty,,Alchemist
+309,Sage,Specialty,,Astronomer
+310,Sage,Specialty,,Discredited academic
+311,Sage,Specialty,,Librarian
+312,Sage,Specialty,,Professor
+313,Sage,Specialty,,Researcher
+314,Sage,Specialty,,Wizard's apprentice
+315,Sage,Specialty,,Scribe
+316,Sage,Trait,,I use polysyllabic words that convey the impression of great erudition.
+317,Sage,Trait,,I've read every book in the world's greatest libraries-or I like to boast that I have.
+318,Sage,Trait,,"I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+319,Sage,Trait,,There's nothing I like more than a good mystery.
+320,Sage,Trait,,I'm willing to listen to every side of an argument before I make my own judgment.
+321,Sage,Trait,,"I . . . speak . . . slowly . . . when talking . . . to idiots, . . . which . . . almost . . . everyone . . . is . . . compared . . . to me."
+322,Sage,Trait,,"I am horribly, horribly awkward in social situations."
+323,Sage,Trait,,I'm convinced that people are always trying to steal my secrets.
+324,Sage,Trait,Neutral,Knowledge. The path to power and self-improvement is through knowledge.
+325,Sage,Trait,Good,Beauty. What is beautiful points us beyond itself toward what is true.
+326,Sage,Trait,Lawful,Logic. Emotions must not cloud our logical thinking.
+327,Sage,Trait,Chaotic,No Limits. Nothing should fetter the infinite possibility inherent in all existence.
+328,Sage,Trait,Evil,Power. Knowledge is the path to power and domination.
+329,Sage,Trait,,Self-Improvement. The goal of a life of study is the betterment of oneself.
+330,Sage,Bond,,It is my duty to protect my students.
+331,Sage,Bond,,I have an ancient text that holds terrible secrets that must not fall into the wrong hands.
+332,Sage,Bond,,"I work to preserve a library, university, scriptorium, or monastery."
+333,Sage,Bond,,My life's work is a series of tomes related to a specific field of lore.
+334,Sage,Bond,,I've been searching my whole life for the answer to a certain question.
+335,Sage,Bond,,I sold my soul for knowledge. I hope to do great deeds and win it back.
+336,Sage,Flaw,,I am easily distracted by the promise of information.
+337,Sage,Flaw,,Most people scream and run when they see a demon. I stop and take notes on its anatomy.
+338,Sage,Flaw,,Unlocking an ancient mystery is worth the price of a civilization.
+339,Sage,Flaw,,I overlook obvious solutions in favor of complicated ones.
+340,Sage,Flaw,,"I speak without really thinking through my words, invariably insulting others."
+341,Sage,Flaw,,"I can't keep a secret to save my life, or anyone else's."
+342,Sailor,Trait,,"My friends know they can rely on me, no matter what."
+343,Sailor,Trait,,I work hard so that I can play hard when the work is done.
+344,Sailor,Trait,,I enjoy sailing into new ports and making new friends over a flagon of ale.
+345,Sailor,Trait,,I stretch the truth for the sake of a good story.
+346,Sailor,Trait,,"To me, a tavern brawl is a nice way to get to know a new city."
+347,Sailor,Trait,,I never pass up a friendly wager.
+348,Sailor,Trait,,My language is as foul as an otyugh nest.
+349,Sailor,Trait,,"I like a job well done, especially if I can convince someone else to do it."
+350,Sailor,Ideal,Good,Respect. The thing that keeps a ship together is mutual respect between captain and crew.
+351,Sailor,Ideal,Lawful,"Fairness. We all do the work, so we all share in the rewards."
+352,Sailor,Ideal,Chaotic,Freedom. The sea is freedom-the freedom to go anywhere and do anything.
+353,Sailor,Ideal,Evil,"Mastery. I'm a predator, and the other ships on the sea are my prey."
+354,Sailor,Ideal,Neutral,"People. I'm committed to my crewmates, not to ideals."
+355,Sailor,Ideal,,Aspiration. Someday I'll own my own ship and chart my own destiny.
+356,Sailor,Bond,,"I'm loyal to my captain first, everything else second."
+357,Sailor,Bond,,The ship is most important-crewmates and captains come and go.
+358,Sailor,Bond,,I'll always remember my first ship.
+359,Sailor,Bond,,"In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
+360,Sailor,Bond,,"I was cheated out of my fair share of the profits, and I want to get my due."
+361,Sailor,Bond,,"Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+362,Sailor,Flaw,,"I follow orders, even if I think they're wrong."
+363,Sailor,Flaw,,I'll say anything to avoid having to do extra work.
+364,Sailor,Flaw,,"Once someone questions my courage, I never back down no matter how dangerous the situation."
+365,Sailor,Flaw,,"Once I start drinking, it's hard for me to stop."
+366,Sailor,Flaw,,I can't help but pocket loose coins and other trinkets I come across.
+367,Sailor,Flaw,,My pride will probably lead to my destruction.
+368,Soldier,Specialty,,Officer
+369,Soldier,Specialty,,Scout
+370,Soldier,Specialty,,Infantry
+371,Soldier,Specialty,,Cavalry
+372,Soldier,Specialty,,Healer
+373,Soldier,Specialty,,Quartermaster
+374,Soldier,Specialty,,Standard bearer
+375,Soldier,Specialty,,"Support staff (cook, blacksmith, or the like)"
+376,Soldier,Trait,,I'm always polite and respectful.
+377,Soldier,Trait,,I'm haunted by memories of war. I can't get the images of violence out of my mind.
+378,Soldier,Trait,,"I've lost too many friends, and I'm slow to make new ones."
+379,Soldier,Trait,,I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.
+380,Soldier,Trait,,I can stare down a hell hound without flinching.
+381,Soldier,Trait,,I enjoy being strong and like breaking things.
+382,Soldier,Trait,,I have a crude sense of humor.
+383,Soldier,Trait,,"I face problems head-on. A simple, direct solution is the best path to success."
+384,Soldier,Ideal,Good,Greater Good. Our lot is to lay down our lives in defense of others.
+385,Soldier,Ideal,Lawful,Responsibility. I do what I must and obey just authority.
+386,Soldier,Ideal,Chaotic,"Independence. When people follow orders blindly, they embrace a kind of tyranny."
+387,Soldier,Ideal,Evil,"Might. In life as in war, the stronger force wins."
+388,Soldier,Ideal,Neutral,Live and Let Live. Ideals aren't worth killing over or going to war for.
+389,Soldier,Ideal,,"Nation. My city, nation, or people are all that matter."
+390,Soldier,Bond,,I would still lay down my life for the people I served with.
+391,Soldier,Bond,,"Someone saved my life on the battlefield. To this day, I will never leave a friend behind."
+392,Soldier,Bond,,My honor is my life.
+393,Soldier,Bond,,I'll never forget the crushing defeat my company suffered or the enemies who dealt it.
+394,Soldier,Bond,,Those who fight beside me are those worth dying for.
+395,Soldier,Bond,,I fight for those who cannot fight for themselves.
+396,Soldier,Flaw,,The monstrous enemy we faced in battle still leaves me quivering with fear.
+397,Soldier,Flaw,,I have little respect for anyone who is not a proven warrior.
+398,Soldier,Flaw,,I made a terrible mistake in battle that cost many lives-and I would do anything to keep that mistake secret.
+399,Soldier,Flaw,,My hatred of my enemies is blind and unreasoning.
+400,Soldier,Flaw,,"I obey the law, even if the law causes misery."
+401,Soldier,Flaw,,I'd rather eat my armor than admit when I'm wrong.
+402,Urchin,Trait,,I hide scraps of food and trinkets away in my pockets.
+403,Urchin,Trait,,I ask a lot of questions.
+404,Urchin,Trait,,I like to squeeze into small places where no one else can get to me.
+405,Urchin,Trait,,"I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms."
+406,Urchin,Trait,,I eat like a pig and have bad manners.
+407,Urchin,Trait,,I think anyone who's nice to me is hiding evil intent.
+408,Urchin,Trait,,I don't like to bathe.
+409,Urchin,Trait,,I bluntly say what other people are hinting at or hiding.
+410,Urchin,Ideal,Good,"Respect. All people, rich or poor, deserve respect."
+411,Urchin,Ideal,Lawful,"Community. We have to take care of each other, because no one else is going to do it."
+412,Urchin,Ideal,Chaotic,"Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things."
+413,Urchin,Ideal,Evil,Retribution. The rich need to be shown what life and death are like in the gutters.
+414,Urchin,Ideal,Neutral,People. I help the people who help me-that's what keeps us alive.
+415,Urchin,Ideal,,Aspiration. I'm going to prove that I'm worthy of a better life.
+416,Urchin,Bond,,"My town or city is my home, and I'll fight to defend it."
+417,Urchin,Bond,,I sponsor an orphanage to keep others from enduring what I was forced to endure.
+418,Urchin,Bond,,I owe my survival to another urchin who taught me to live on the streets.
+419,Urchin,Bond,,I owe a debt I can never repay to the person who took pity on me.
+420,Urchin,Bond,,"I escaped my life of poverty by robbing an important person, and I'm wanted for it."
+421,Urchin,Bond,,No one else should have to endure the hardships I've been through.
+422,Urchin,Flaw,,"If I'm outnumbered, I will run away from a fight."
+423,Urchin,Flaw,,"Gold seems like a lot of money to me, and I'll do just about anything for more of it."
+424,Urchin,Flaw,,I will never fully trust anyone other than myself.
+425,Urchin,Flaw,,I'd rather kill someone in their sleep than fight fair.
+426,Urchin,Flaw,,It's not stealing if I need it more than someone else.
+427,Urchin,Flaw,,People who can't take care of themselves get what they deserve.

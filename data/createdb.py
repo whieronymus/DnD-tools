@@ -259,7 +259,7 @@ def load_background_characteristics():
     with SQLConnect('dnd.db') as db:
         for background_characteristic in background_characteristics:
             try:
-                db.add_record('background_characterstics',
+                db.add_record('background_characteristics',
                               background=background_characteristic[1],
                               characteristic=background_characteristic[2],
                               alignment=background_characteristic[3],
@@ -273,6 +273,6 @@ def load_background_characteristics():
 if __name__ == '__main__':
     create_tables()
     # load_races()
-    # load_names()
+    load_names()
     # load_backgrounds()
-    load_background_characteristics()
+    # load_background_characteristics()
