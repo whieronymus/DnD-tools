@@ -16,3 +16,23 @@ def roll_stats():
         returnValues.append(sum(rollList))
     returnValues.sort(reverse=True)
     return returnValues
+
+
+def roll_dice(dice_str):
+    dice, sides = [int(num) for num in dice_str.split("d")]
+    return sum([randint(1, sides) for d in range(dice)])
+
+
+
+def roll_dice2(dice_str):
+    dice_vals = dice_str.split("d")
+    dice = int(dice_vals[0])
+    sides = int(dice_vals[1])
+
+    total = 0
+    for die in range(dice):
+        roll = randint(1, sides)
+        total += roll
+
+    return total
+

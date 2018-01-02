@@ -1,4 +1,4 @@
-ID,Background,Characteristic,Alignment,Description
+id,background,char_type,alignment,description
 1,Acolyte,Trait,,"I idolize a particular hero of my faith, and constantly refer to that person's deeds and example"
 2,Acolyte,Trait,,"I can find common ground between the fiercest enemies, empathizing with them and always working towards peace."
 3,Acolyte,Trait,,"I see omens in every event and action. The gods try to speak to us, we just need to listen"

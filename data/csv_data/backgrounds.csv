@@ -1,4 +1,4 @@
-ID,Background,Source,Skill Proficiency 1,Skill Proficiency 2,Languages,Tool Proficiency,Equipment
+id,background,source,skill_proficiency1,skill_proficiency2,languages,tool_proficiency,equipment
 1,Acolyte,PHB,Insight,Religion,Two of your choice,,"A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp"
 2,Charlatan,PHB,Deception,Sleight of Hand,,"Disguise Kit, Forgery Kit","A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp"
 3,Criminal,PHB,Deception,Stealth,,"One type of gaming set, thieves' tools","A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 GP."

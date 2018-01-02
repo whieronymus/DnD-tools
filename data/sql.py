@@ -1,5 +1,6 @@
 import sqlite3
 import traceback
+import inspect
 import pdb
 
 
@@ -71,7 +72,7 @@ class SQLConnect:
     def __repr__(self):
         return self.__str__()
 
-    def connect(self):
+    def connect(self, get_db=True):
         if self.open:
             print("Already connected to DB '{}'".format(self.db))
         else:
@@ -83,13 +84,82 @@ class SQLConnect:
             sqlite3.register_converter("BOOLEAN", lambda v: bool((v)))
             self.connection.row_factory = self.dict_factory
             self.cursor = self.connection.cursor()
-            print("Connected to DB '{}'".format(self.db))
             self.open = True
+
+            if get_db:
+                print("get_db")
+                self.get_sql()
+                self.DB = DB(self.db, query_result=self.sql)
+
+            print("Connected to DB '{}'".format(self.db))
+            
+
+    def check_connection(self):
+        if not self.open:
+            print("Not currently connected to a DB.")
+            reconnect = input("Reconnect (y/n)?:  ")
+
+            if reconnect.lower() in ['y', 'yes']:
+                self.connect()
+                return True
+
+            else:
+                info = inspect.stack()
+                caller = info[1][3]
+
+                print("Calling Function: sql.{}".format(caller))
+                print("Pending queries will not be executed.")
+                return False
+
+        else:
+            return True
 
     def close(self):
         self.connection.close()
         self.open = False
         print("Connection to '{}' has been closed.".format(self.db))
+
+    def get_sql(self):
+        if not self.check_connection():
+            return False
+
+        self.query = "SELECT * FROM sqlite_master WHERE type='table'"
+
+        try:
+            self.cursor.execute(self.query)
+            rows = self.cursor.fetchall()
+            self.sql = rows
+            return True
+
+        except Exception as error:
+            print("Cannot get DB raw SQL")
+            print("SQL Query: \n{}\n".format(self.query))
+            print("Exception: \n{}".format(error))
+
+            return False
+
+
+
+    def get_tables(self):
+        if not self.check_connection():
+            return False
+
+
+
+
+
+    def get_field_sql(self,
+                      field_name,
+                      field_type="",
+                      default="",
+                      pk=None,
+                      auto_inc=None,
+                      fk_table=None,
+                      fk_reference=""):
+        pass
+
+        x = '{fn} {type} {not_null} {pk} {unique} {default}'
+        f = 'FOREIGN KEY({fn}) REFERENCES {ref_tbl}(id)'
 
     def create_table(self, table_name):
         """
@@ -102,13 +172,13 @@ class SQLConnect:
 
         Returns True on success, False on any error
         """
-        if not self.open:
-            print("Not currently connected to a DB.")
+        if not self.check_connection():
             return False
 
+        
         q = '''CREATE TABLE
         IF NOT EXISTS {tn}
-        (ID INTEGER PRIMARY KEY)'''
+        (id INTEGER PRIMARY KEY{fields})'''
         self.query = q.format(tn=table_name)
 
         try:
@@ -140,8 +210,7 @@ class SQLConnect:
         Example:
         db.add_field("races", "spped", "INT", default=30)
         """
-        if not self.open:
-            print("Not currently connected to a DB.")
+        if not self.check_connection():
             return False
 
         if pk:
@@ -173,6 +242,42 @@ class SQLConnect:
 
             return False
 
+    def add_unique_contraint(self, table_name, fields):
+        """
+        Adds a unique index to the given table
+        
+        The field or fields passed in will uniquely identify a record
+        in the passed in table. 
+
+        This will prevent (will throw sqlite3.ItegrityError) duplicate records
+        from being created in the table.
+        """
+
+        if not self.check_connection():
+            return False
+
+        field_names = ", ".join('"{}"'.format(f) for f in fields)
+        unique_name = "_".join(f for f in fields)
+
+        q = "CREATE UNIQUE INDEX {un} {tn}({fn})"
+        self.query = q.format(un=unique_name,
+                              tn=table_name,
+                              fn=field_name)
+
+        try:
+            self.cursor.execute(self.query)
+            print("Unique index {} added to {} table.".format(unique_name,
+                                                              table_name))
+            self.connection.commit()
+            return True
+        except Exception as error:
+            print("Failed to add unique index to {} table.".format(field_name,
+                                                                   table_name))
+            print("SQL Query: \n{}\n".format(self.query))
+            print("Exception: \n{}".format(error))
+
+            return False
+
     def add_record(self, table_name, **kwargs):
         """
         Creates a new Record in the given Table.
@@ -190,10 +295,8 @@ class SQLConnect:
                       int=0)
         """
 
-        if not self.open:
-            print("Not currently connected to a DB.")
+        if not self.check_connection():
             return False
-
 
         fields = ", ".join('"{}"'.format(f) for f in kwargs.keys())
         values = ", ".join('"{}"'.format(v) for v in kwargs.values())
@@ -230,8 +333,7 @@ class SQLConnect:
         db.select('races') <-- grabs all races from races table
         db.select('races', speed=30) <-- grabs all races with a speed of 30 
         """
-        if not self.open:
-            print("Not currently connected to a DB.")
+        if not self.check_connection():
             return False
 
         where_claus = ""
@@ -255,19 +357,179 @@ class SQLConnect:
 
             return False
 
-# # no context manager, I have to manually close the file with f.close()
-# f = open('helloworld.txt','r')
-# message = f.read()
-# print(message)
-# f.close()
 
-# # with context manager, I don't have to close the file, it's automatically
-# # closed at the end of "with"
-# with open('helloworld.txt', 'r') as f:
-#     message = f.read()
-#     print(message)
+class DB:
+    def __init__(self, file_name, query_result=None):
+        self.name = file_name
+        self.sql_query = query_result
+        self.tables = {}
+        if query_result:
+            self.generate_schema(query_result=query_result)
+
+    def generate_schema(self, query_result):
+        for table in query_result:
+            sql = table['sql']
+            name = table['tbl_name']
+            self.tables[name] = Table(name=name, raw_sql=sql)
+
+    @property
+    def schema(self):
+        print()
+        for table in self.tables.values():
+            print('TABLE: {}'.format(table.name))
+                
 
 
+class Table:
+    def __init__(self, name=None, raw_sql=None):
+        self.name = name
+        self.sql = raw_sql
+        self.fields = {}
+
+        if raw_sql:
+            self.generate_schema(raw_sql)
+
+    def __repr__(self):
+        return "Table({})".format(self.name)
+
+    @property
+    def schema(self):
+        print('\nTABLE: {}'.format(self.name))
+        for field in self.fields.values():
+            print(field.schema)
+
+    def get_sql(self):
+        fields = ",\n".join([f.schema for f in self.fields.values()])
+        t = """CREATE TABLE {n} (
+            {f}\n)"""
+
+        return t.format(n=self.name,
+                        f=fields)
+
+    def generate_schema(self, raw_sql):
+        create_table, _, fields = raw_sql[:-1].partition('(')
+        field_list = fields.split(", ")
+        for field_sql in field_list:
+            name = field_sql.split()[0].strip("'")
+            self.fields[name] = Field(name=name, raw_sql=field_sql)
+
+
+class Field:
+    FIELD_TYPES = ['INT', 'INTEGER', 'TEXT', 'BLOB', 'REAL', 'BOOLEAN',
+                   'FLOAT', 'NUMERIC', 'DATE', 'DATETIME', None]
+    
+    def __init__(self, raw_sql=None, name=None, pk=False, not_null=False,
+                 autoincrement=False, unique=False, default=None, ftype=None):
+        self.name = name
+        self.table = None
+        self.pk = pk
+        self.not_null = not_null
+        self.autoincrement = autoincrement
+        self.unique = unique
+        self.default = default
+        self.ftype = self._validate_type(ftype)
+        if raw_sql:
+            self.generate_schema(raw_sql)
+
+    def __repr__(self):
+        return "Field(name={}, raw_sql={})".format(self.name, self.sql)
+
+    def __str__(self):
+        return self.schema
+
+    def _validate_type(self, ftype):
+        if ftype in self.FIELD_TYPES:
+            return ftype
+        else:
+            raise AttributeError("{} is not a valid Field Type".format(ftype))
+
+    @property
+    def schema(self):
+        if self.pk:
+            pk = " PRIMARY KEY"
+        else:
+            pk = ""
+        if self.autoincrement:
+            auto = " AUTOINCREMENT"
+        else:
+            auto = ""
+        if self.default:
+            df = " DEFAULT '{}'".format(self.default)
+        else:
+            df = ""
+        if self.unique:
+            unq = " UNIQUE"
+        else:
+            unq = ""
+        if self.not_null:
+            nn = " NOT NULL"
+        else:
+            nn = ""
+        
+        t = "'{n}' {t}{pk}{a}{d}{u}{nn}".format(n=self.name,
+                                                     t=self.ftype,
+                                                     pk=pk,
+                                                     a=auto,
+                                                     d=df,
+                                                     u=unq,
+                                                     nn=nn)
+        return t
+
+    def generate_schema(self, sql=None):
+        keywords = sql.split()
+        self.name = keywords[0].strip("'")
+        self.ftype = self._validate_type(keywords[1])
+        if "PRIMARY KEY" in sql:
+            self.pk = True
+        if "AUTOINCREMENT" in sql:
+            self.autoincrement = True
+        if "UNIQUE" in sql:
+            self.unique = True
+        if "NOT NULL" in sql:
+            self.not_null = True
+        if "DEFAULT" in sql:
+            *_, default = sql.partition('DEFAULT ')
+            self.default = default.split("'")[1]
+
+"""
+CREATE TABLE races (    
+    'id' INTEGER PRIMARY KEY,
+    'base_race' TEXT DEFAULT 'RACE' NOT NULL,
+    'sub_race' TEXT,
+    'source' TEXT DEFAULT 'PHB' NOT NULL,
+    'name' TEXT DEFAULT 'RACE' NOT NULL,
+    'base_height' INTEGER DEFAULT '12' NOT NULL,
+    'height_mod' TEXT DEFAULT '1d1' NOT NULL,
+    'base_weight' INTEGER DEFAULT '12' NOT NULL,
+    'weight_mod' TEXT DEFAULT '1d1' NOT NULL, 
+    'speed' INTEGER DEFAULT '30' NOT NULL, 
+    'str_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'dex_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'con_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'int_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'wis_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'cha_bonus' INTEGER DEFAULT '0' NOT NULL, 
+    'languages' TEXT DEFAULT 'Common' NOT NULL, 
+    'trait_1' TEXT, 
+    'trait_2' TEXT, 
+    'trait_3' TEXT, 
+    'trait_4' TEXT, 
+    'trait_5' TEXT, 
+    'trait_6' TEXT, 
+    'trait_7' TEXT, 
+    'trait_8' TEXT
+)
+"""
+
+"""
+CREATE TABLE background_characteristics (
+    id INTEGER PRIMARY KEY,
+    'background' TEXT DEFAULT 'Acolyte' NOT NULL,
+    'characteristic' TEXT DEFAULT 'Trait' NOT NULL,
+    'alignment' TEXT,
+    'description' TEXT
+)
+"""
 
 # def create_table():
 #     # Use all caps for SQL, regular casing for nonSQL
