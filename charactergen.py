@@ -2,12 +2,11 @@ from random import randint
 import sqlite3
 from rollstats import roll_stats
 
-conn = sqlite3.connect('characterdata.db')
+conn = sqlite3.connect('data/dnd.db')
 c = conn.cursor()
 
-# Will be a variable in the future
+# Will be a necessary variable in the future
 proficiency = 2
-
 
 def random_select(select):
     """
