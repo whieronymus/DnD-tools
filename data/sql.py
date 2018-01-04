@@ -56,7 +56,6 @@ class SQLConnect:
         if exc_type:
             print(exc_type, exc_value, traceback)
             print_exc_plus(traceback)
-            # pdb.set_trace()
         self.close()
         return self
 
@@ -292,7 +291,7 @@ class SQLConnect:
         q = "INSERT INTO {tn}({columns}) VALUES ({values})"
         self.query = q.format(tn=table_name,
                               columns=fields,
-                              values=values)
+                              values=values)    
 
         try:
             self.cursor.execute(self.query)
@@ -426,6 +425,15 @@ class Table:
                 fk = fk_dict(name)
             self.fields.append(Field(name=name, raw_sql=field_sql, fk=fk))
 
+    def create_fields_from_gsheet(self, fields):
+        if not fields:
+            print("Something went wrong.")
+            return False
+
+        for field in fields:
+            self.fields.append(Field(**field))
+
+
 
 class Field:
     FIELD_TYPES = ['INT', 'INTEGER', 'TEXT', 'BLOB', 'REAL', 'BOOLEAN',
@@ -455,7 +463,6 @@ class Field:
         if ftype in self.FIELD_TYPES:
             return ftype
         else:
-            pdb.set_trace()
             raise AttributeError("{} is not a valid Field Type".format(ftype))
 
     @property
