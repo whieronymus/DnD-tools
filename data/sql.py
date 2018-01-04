@@ -92,7 +92,7 @@ class SQLConnect:
                 self.DB = DB(self.db, query_result=self.sql)
 
             print("Connected to DB '{}'".format(self.db))
-            
+
 
     def check_connection(self):
         if not self.open:
@@ -139,29 +139,7 @@ class SQLConnect:
             return False
 
 
-
-    def get_tables(self):
-        if not self.check_connection():
-            return False
-
-
-
-
-
-    def get_field_sql(self,
-                      field_name,
-                      field_type="",
-                      default="",
-                      pk=None,
-                      auto_inc=None,
-                      fk_table=None,
-                      fk_reference=""):
-        pass
-
-        x = '{fn} {type} {not_null} {pk} {unique} {default}'
-        f = 'FOREIGN KEY({fn}) REFERENCES {ref_tbl}(id)'
-
-    def create_table(self, table_name):
+    def create_table(self, table=None, table_name=None):
         """
         Creates a new Table with an ID PK field in the DB.
 
@@ -175,11 +153,22 @@ class SQLConnect:
         if not self.check_connection():
             return False
 
-        
-        q = '''CREATE TABLE
-        IF NOT EXISTS {tn}
-        (id INTEGER PRIMARY KEY{fields})'''
-        self.query = q.format(tn=table_name)
+        if table:
+            self.query = table.get_sql()
+            table_name = table.name
+
+        elif raw_sql:
+            self.query = raw_sql
+
+        elif table_name:
+            q = '''CREATE TABLE
+            IF NOT EXISTS {tn}
+            (id INTEGER PRIMARY KEY{fields})'''
+            self.query = q.format(tn=table_name)
+
+        else:
+            print("Please pass in a Table object, a raw sql create statement,")
+            print("Or a just a table name to create a blank table.")
 
         try:
             self.cursor.execute(self.query)
@@ -245,9 +234,9 @@ class SQLConnect:
     def add_unique_contraint(self, table_name, fields):
         """
         Adds a unique index to the given table
-        
+
         The field or fields passed in will uniquely identify a record
-        in the passed in table. 
+        in the passed in table.
 
         This will prevent (will throw sqlite3.ItegrityError) duplicate records
         from being created in the table.
@@ -331,7 +320,7 @@ class SQLConnect:
 
         Example:
         db.select('races') <-- grabs all races from races table
-        db.select('races', speed=30) <-- grabs all races with a speed of 30 
+        db.select('races', speed=30) <-- grabs all races with a speed of 30
         """
         if not self.check_connection():
             return False
@@ -377,14 +366,14 @@ class DB:
         print()
         for table in self.tables.values():
             print('TABLE: {}'.format(table.name))
-                
+
 
 
 class Table:
     def __init__(self, name=None, raw_sql=None):
         self.name = name
         self.sql = raw_sql
-        self.fields = {}
+        self.fields = []
 
         if raw_sql:
             self.generate_schema(raw_sql)
@@ -395,34 +384,59 @@ class Table:
     @property
     def schema(self):
         print('\nTABLE: {}'.format(self.name))
-        for field in self.fields.values():
+        for field in self.fields:
             print(field.schema)
 
     def get_sql(self):
-        fields = ",\n".join([f.schema for f in self.fields.values()])
+        fields = ",\n".join([f.schema for f in self.fields])
+        fks = ",\n".join([f.fk_schema for f in self.fields if f.fk])
         t = """CREATE TABLE {n} (
-            {f}\n)"""
+            {f}{if_fks}{fks}\n)"""
+
+        if fks:
+            if_fks = ",\n"
+        else:
+            fks = ""
+            if_fks = ""
 
         return t.format(n=self.name,
-                        f=fields)
+                        f=fields,
+                        if_fks=if_fks,
+                        fks=fks)
 
     def generate_schema(self, raw_sql):
         create_table, _, fields = raw_sql[:-1].partition('(')
+        fks = [f for f in fields.split(", ") if f.startswith("FOREIGN KEY")]
+        fk_dict = {}
+        for fk in fks:
+            fk_str = fk.split('(')[1]
+            field_last = fk_str.find(')')
+            fk_field = fk_str[:field_last]
+            fk_table = fk_str.split("REFERENCES ")[1]
+            fk_dict[fk_field] = fk_table
+
+
         field_list = fields.split(", ")
         for field_sql in field_list:
+            fk = None
             name = field_sql.split()[0].strip("'")
-            self.fields[name] = Field(name=name, raw_sql=field_sql)
+            if name == "FOREIGN":
+                break
+            if name in fk_dict.keys():
+                fk = fk_dict(name)
+            self.fields.append(Field(name=name, raw_sql=field_sql, fk=fk))
 
 
 class Field:
     FIELD_TYPES = ['INT', 'INTEGER', 'TEXT', 'BLOB', 'REAL', 'BOOLEAN',
-                   'FLOAT', 'NUMERIC', 'DATE', 'DATETIME', None]
-    
-    def __init__(self, raw_sql=None, name=None, pk=False, not_null=False,
+                   'FLOAT', 'NUMERIC', 'DATE', 'DATETIME', 'FK', None]
+
+    def __init__(self, raw_sql=None, name=None, pk=False, fk=None, not_null=False,
                  autoincrement=False, unique=False, default=None, ftype=None):
         self.name = name
         self.table = None
         self.pk = pk
+        self.fk = fk
         self.not_null = not_null
         self.autoincrement = autoincrement
         self.unique = unique
@@ -432,7 +446,7 @@ class Field:
             self.generate_schema(raw_sql)
 
     def __repr__(self):
-        return "Field(name={}, raw_sql={})".format(self.name, self.sql)
+        return "Field(name={}, raw_sql={})".format(self.name, self.schema)
 
     def __str__(self):
         return self.schema
@@ -441,6 +455,7 @@ class Field:
         if ftype in self.FIELD_TYPES:
             return ftype
         else:
+            pdb.set_trace()
             raise AttributeError("{} is not a valid Field Type".format(ftype))
 
     @property
@@ -465,15 +480,26 @@ class Field:
             nn = " NOT NULL"
         else:
             nn = ""
-        
+        if self.fk:
+            self.ftype == 'INT'
+
+
         t = "'{n}' {t}{pk}{a}{d}{u}{nn}".format(n=self.name,
-                                                     t=self.ftype,
-                                                     pk=pk,
-                                                     a=auto,
-                                                     d=df,
-                                                     u=unq,
-                                                     nn=nn)
+                                                t=self.ftype,
+                                                pk=pk,
+                                                a=auto,
+                                                d=df,
+                                                u=unq,
+                                                nn=nn)
         return t
+
+    @property
+    def fk_schema(self):
+        if self.fk:
+            t = "FOREIGN KEY({}) REFERENCES {}('id')".format(self.name, self.fk)
+            return t
+        else:
+            return None
 
     def generate_schema(self, sql=None):
         keywords = sql.split()
@@ -492,7 +518,7 @@ class Field:
             self.default = default.split("'")[1]
 
 """
-CREATE TABLE races (    
+CREATE TABLE races (
     'id' INTEGER PRIMARY KEY,
     'base_race' TEXT DEFAULT 'RACE' NOT NULL,
     'sub_race' TEXT,
@@ -501,22 +527,22 @@ CREATE TABLE races (
     'base_height' INTEGER DEFAULT '12' NOT NULL,
     'height_mod' TEXT DEFAULT '1d1' NOT NULL,
     'base_weight' INTEGER DEFAULT '12' NOT NULL,
-    'weight_mod' TEXT DEFAULT '1d1' NOT NULL, 
-    'speed' INTEGER DEFAULT '30' NOT NULL, 
-    'str_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'dex_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'con_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'int_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'wis_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'cha_bonus' INTEGER DEFAULT '0' NOT NULL, 
-    'languages' TEXT DEFAULT 'Common' NOT NULL, 
-    'trait_1' TEXT, 
-    'trait_2' TEXT, 
-    'trait_3' TEXT, 
-    'trait_4' TEXT, 
-    'trait_5' TEXT, 
-    'trait_6' TEXT, 
-    'trait_7' TEXT, 
+    'weight_mod' TEXT DEFAULT '1d1' NOT NULL,
+    'speed' INTEGER DEFAULT '30' NOT NULL,
+    'str_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'dex_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'con_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'int_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'wis_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'cha_bonus' INTEGER DEFAULT '0' NOT NULL,
+    'languages' TEXT DEFAULT 'Common' NOT NULL,
+    'trait_1' TEXT,
+    'trait_2' TEXT,
+    'trait_3' TEXT,
+    'trait_4' TEXT,
+    'trait_5' TEXT,
+    'trait_6' TEXT,
+    'trait_7' TEXT,
     'trait_8' TEXT
 )
 """
